@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpmon.fnproduct.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "When land use change results in deforestation of natural vegetation (trees or grasslands) then natural biomass is removed. The treatment of deforested biomass differs significantly across models, but it should be straight-forward to compare deforested biomass across models.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Deforested or Harvested Biomass as a Result of Anthropogenic Land-Use or Change",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "fNProduct",
+  "positive": "",
+  "standard_name": "nitrogen_mass_flux_into_forestry_and_agricultural_products_due_to_anthropogenic_land_use_or_land_cover_change",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpmon.fclandtoocean.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellr",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "leached carbon etc that goes into run off or river routing and finds its way into ocean should be reported here.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Lateral Transfer of Carbon out of Grid Cell That Eventually Goes into Ocean",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "fCLandToOcean",
+  "positive": "",
+  "standard_name": "mass_flux_of_carbon_into_sea_water_from_rivers",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

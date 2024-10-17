@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apsubhrptsite.sfcwind.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apsubhrptsite.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apsubhrptsite.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: point time: point",
+  "comment": "near-surface (usually, 10 meters) wind speed.",
+  "dimensions": [
+    "site",
+    "time1",
+    "height10m"
+  ],
+  "frequency": "subhrPt",
+  "long_name": "Near-Surface Wind Speed",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "sfcWind",
+  "positive": "",
+  "standard_name": "wind_speed",
+  "units": "m s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

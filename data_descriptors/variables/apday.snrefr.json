@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apday.snrefr.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics. The surface called 'surface' means the lower boundary of the atmosphere. 'Surface snow and ice refreezing flux' means the mass flux of surface  meltwater which refreezes within the snow or firn.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Refreezing of Water in the Snow",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "snrefr",
+  "positive": "",
+  "standard_name": "surface_snow_and_ice_refreezing_flux",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

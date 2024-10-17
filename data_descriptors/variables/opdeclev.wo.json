@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opdeclev.wo.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opdeclev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opdeclev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "--OPT",
+  "cell_methods": "time: mean",
+  "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "dec",
+  "long_name": "Sea Water Vertical Velocity",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "wo",
+  "positive": "",
+  "standard_name": "upward_sea_water_velocity",
+  "units": "m s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

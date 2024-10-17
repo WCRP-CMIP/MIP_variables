@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmon.uqint.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Column integrated eastward wind times specific humidity",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Eastward Humidity Transport",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "uqint",
+  "positive": "",
+  "standard_name": "integral_wrt_height_of_product_of_eastward_wind_and_specific_humidity",
+  "units": "m2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

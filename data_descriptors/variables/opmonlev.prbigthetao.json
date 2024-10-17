@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmonlev.prbigthetao.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "A passive tracer in an ocean model which is subject to an externally imposed perturbative surface heat flux. The passive tracer is initialised to the conservative temperature in the control climate before the perturbation is imposed. Its surface flux is the heat flux from the atmosphere, not including the imposed perturbation, and is converted to a passive tracer increment as if it were being added to conservative temperature. The passive tracer is transported within the ocean as if it were conservative temperature. ",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Sea Water Redistributed Conservative Temperature",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "prbigthetao",
+  "positive": "",
+  "standard_name": "sea_water_redistributed_conservative_temperature",
+  "units": "degC",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

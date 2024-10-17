@@ -1,0 +1,42 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ae6hrptlev.ec550aer.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ae6hrptlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ae6hrptlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "Aerosol volume extinction coefficient at 550nm wavelength.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time1",
+    "lambda550nm"
+  ],
+  "frequency": "6hrPt",
+  "long_name": "Aerosol Extinction Coefficient",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "ec550aer",
+  "positive": "",
+  "standard_name": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles",
+  "units": "m-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

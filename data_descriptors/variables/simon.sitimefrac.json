@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "simon.sitimefrac.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Fraction of time steps of the averaging period during which sea ice is present (siconc >0 ) in a grid cell",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Fraction of Time Steps with Sea Ice",
+  "modeling_realm": [
+    "seaIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "sitimefrac",
+  "positive": "",
+  "standard_name": "fraction_of_time_with_sea_ice_area_fraction_above_threshold",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

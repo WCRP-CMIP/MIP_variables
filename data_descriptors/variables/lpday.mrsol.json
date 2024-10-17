@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpday.mrsol.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "in each soil layer, the mass of water in all phases, including ice.  Reported as 'missing' for grid cells occupied entirely by 'sea'",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "sdepth",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Total Water Content of Soil Layer",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "mrsol",
+  "positive": "",
+  "standard_name": "mass_content_of_water_in_soil_layer",
+  "units": "kg m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

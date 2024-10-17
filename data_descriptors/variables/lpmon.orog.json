@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpmon.orog.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "The surface called 'surface' means the lower boundary of the atmosphere. Altitude is the (geometric) height above the geoid, which is the reference geopotential surface. The geoid is similar to mean sea level.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Surface Altitude",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "orog",
+  "positive": "",
+  "standard_name": "surface_altitude",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

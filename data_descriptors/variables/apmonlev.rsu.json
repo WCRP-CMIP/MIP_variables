@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmonlev.rsu.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Upwelling shortwave radiation  (includes also the fluxes at the surface and top of atmosphere)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevhalf",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Upwelling Shortwave Radiation",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "rsu",
+  "positive": "up",
+  "standard_name": "upwelling_shortwave_flux_in_air",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

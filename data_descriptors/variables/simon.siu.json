@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "simon.siu.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "--MODEL",
+  "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+  "comment": "The x-velocity of ice on native model grid",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "X-Component of Sea-Ice Velocity",
+  "modeling_realm": [
+    "seaIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "siu",
+  "positive": "",
+  "standard_name": "sea_ice_x_velocity",
+  "units": "m s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

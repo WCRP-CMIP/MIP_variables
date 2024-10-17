@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obyrlev.talknat.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obyrlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obyrlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "total alkalinity equivalent concentration (including carbonate, borate, phosphorus, silicon, and nitrogen components) at preindustrial atmospheric xCO2",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Natural Total Alkalinity",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "talknat",
+  "positive": "",
+  "standard_name": "sea_water_alkalinity_natural_analogue_expressed_as_mole_equivalent",
+  "units": "mol m-3",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

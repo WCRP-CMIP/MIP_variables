@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpyrpt.clitter.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpyrpt.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpyrpt.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: point",
+  "comment": "'Litter' is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between 'fine' and 'coarse' is model dependent. 'Content' indicates a quantity per unit area. The sum of the quantities with standard names surface_litter_mass_content_of_carbon and subsurface_litter_mass_content_of_carbon has the standard name litter_mass_content_of_carbon.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1"
+  ],
+  "frequency": "yrPt",
+  "long_name": "Carbon Mass in Litter Pool",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "cLitter",
+  "positive": "",
+  "standard_name": "litter_mass_content_of_carbon",
+  "units": "kg m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "giayr.tendlibmassbf.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "giayr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "giayr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: sum where ice_sheet time: mean",
+  "comment": "The total basal mass balance flux over land ice is a spatial integration of the basal mass balance flux",
+  "dimensions": [
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Total Basal Mass Balance Flux",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tendlibmassbf",
+  "positive": "",
+  "standard_name": "tendency_of_land_ice_mass_due_to_basal_mass_balance",
+  "units": "kg s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

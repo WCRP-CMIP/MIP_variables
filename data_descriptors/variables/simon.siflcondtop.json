@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "simon.siflcondtop.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+  "comment": "the net heat conduction flux at the ice surface",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Net Conductive Heat Flux in Ice at the Surface",
+  "modeling_realm": [
+    "seaIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "siflcondtop",
+  "positive": "down",
+  "standard_name": "surface_downward_sensible_heat_flux",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

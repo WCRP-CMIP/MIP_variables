@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opdec.tos.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opdec.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opdec.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Temperature of upper boundary of the liquid ocean, including temperatures below sea-ice and floating ice shelves.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "dec",
+  "long_name": "Sea Surface Temperature",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tos",
+  "positive": "",
+  "standard_name": "sea_surface_temperature",
+  "units": "degC",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

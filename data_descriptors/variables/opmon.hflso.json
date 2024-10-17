@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmon.hflso.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where ice_free_sea over sea time: mean",
+  "comment": "This is defined as with the cell methods string: where ice_free_sea over sea",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Surface Downward Latent Heat Flux",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "hflso",
+  "positive": "down",
+  "standard_name": "surface_downward_latent_heat_flux",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

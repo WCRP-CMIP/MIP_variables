@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "gigmon.snm.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "gigmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "gigmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "comment": "The total surface snow melt rate on the land portion of the grid cell divided by the land area in the grid cell; report as zero for snow-free land regions and missing where there is no land.",
+  "dimensions": [
+    "xgre",
+    "ygre",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Surface Snow Melt",
+  "modeling_realm": [
+    "landIce",
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "snm",
+  "positive": "",
+  "standard_name": "surface_snow_melt_flux",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

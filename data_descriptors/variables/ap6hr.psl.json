@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap6hr.psl.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap6hr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap6hr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Sea Level Pressure",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "6hr",
+  "long_name": "Sea Level Pressure",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "psl",
+  "positive": "",
+  "standard_name": "air_pressure_at_mean_sea_level",
+  "units": "Pa",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

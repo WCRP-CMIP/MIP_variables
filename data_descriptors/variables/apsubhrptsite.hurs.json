@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apsubhrptsite.hurs.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apsubhrptsite.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apsubhrptsite.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: point time: point",
+  "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+  "dimensions": [
+    "site",
+    "time1",
+    "height2m"
+  ],
+  "frequency": "subhrPt",
+  "long_name": "Near-Surface Relative Humidity",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "hurs",
+  "positive": "",
+  "standard_name": "relative_humidity",
+  "units": "%",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

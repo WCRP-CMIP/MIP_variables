@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpday.dtesn.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "Change in cold content over the snow layer for which the energy balance is calculated, accumulated over the sampling time interval. This should also include the energy contained in the liquid water in the snow pack.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Change in Snow and Ice Cold Content",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "dtesn",
+  "positive": "",
+  "standard_name": "change_over_time_in_thermal_energy_content_of_ice_and_snow_on_land",
+  "units": "J m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,39 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "giafx.areacellg.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "giafx.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "giafx.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: sum",
+  "comment": "Area of the target grid (not the interpolated area of the source grid).",
+  "dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "frequency": "fx",
+  "long_name": "Grid-Cell Area for Ice Sheet Variables",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "areacellg",
+  "positive": "",
+  "standard_name": "cell_area",
+  "units": "m2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

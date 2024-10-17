@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obmon.limirrdiaz.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Growth limitation of diazotrophs due to solar irradiance. 'Growth limitation due to solar irradiance' means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Irradiance Limitation of Diazotrophs",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "limirrdiaz",
+  "positive": "",
+  "standard_name": "growth_limitation_of_diazotrophic_phytoplankton_due_to_solar_irradiance",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

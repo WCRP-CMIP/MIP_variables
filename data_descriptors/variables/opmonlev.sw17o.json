@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmonlev.sw17o.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Ratio of abundance of oxygen-17 (17O) atoms to oxygen-16 (16O) atoms in sea water",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Isotopic Ratio of Oxygen-17 in Sea Water",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "sw17O",
+  "positive": "",
+  "standard_name": "isotope_ratio_of_17O_to_16O_in_sea_water_excluding_solutes_and_solids",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

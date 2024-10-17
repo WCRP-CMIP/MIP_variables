@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmon.hfcorr.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Flux correction is also called 'flux adjustment'. A positive flux correction is downward i.e. added to the ocean. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Heat Flux Correction",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "hfcorr",
+  "positive": "down",
+  "standard_name": "heat_flux_correction",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

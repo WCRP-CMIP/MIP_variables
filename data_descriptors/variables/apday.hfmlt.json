@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apday.hfmlt.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "Energy consumed or released during liquid/solid phase changes.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Energy of Fusion",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "hfmlt",
+  "positive": "",
+  "standard_name": "surface_snow_and_ice_melt_heat_flux",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

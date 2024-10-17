@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmon.zos.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "This is the dynamic sea level, so should have zero global area mean. It should not include inverse barometer depressions from sea ice.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Sea Surface Height Above Geoid",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "zos",
+  "positive": "",
+  "standard_name": "sea_surface_height_above_geoid",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

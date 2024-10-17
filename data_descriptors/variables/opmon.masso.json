@@ -1,0 +1,38 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmon.masso.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: sum where sea time: mean",
+  "comment": "Total mass of liquid sea water. For Boussinesq models, report this diagnostic as Boussinesq reference density times total volume.",
+  "dimensions": [
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Sea Water Mass",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "masso",
+  "positive": "",
+  "standard_name": "sea_water_mass",
+  "units": "kg",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

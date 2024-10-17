@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "gigyr.yvelmean.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "gigyr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "gigyr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "comment": "The vertical mean land ice velocity is the average from the bedrock to the surface of the ice",
+  "dimensions": [
+    "xgre",
+    "ygre",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Y-Component of Land Ice Vertical Mean Velocity",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "yvelmean",
+  "positive": "",
+  "standard_name": "land_ice_vertical_mean_y_velocity",
+  "units": "m s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

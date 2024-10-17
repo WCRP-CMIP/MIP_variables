@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpmon.tsoilpools.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "defined as 1/(turnover time) for each soil pool. Use the same pools reported under cSoilPools",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "soilpools",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Turnover Rate of Each Model Soil Carbon Pool",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tSoilPools",
+  "positive": "",
+  "standard_name": "soil_pool_carbon_decay_rate",
+  "units": "s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

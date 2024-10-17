@@ -1,0 +1,39 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opfx.areacello.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opfx.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opfx.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: sum",
+  "comment": "Horizontal area of ocean grid cells",
+  "dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "frequency": "fx",
+  "long_name": "Grid-Cell Area for Ocean Variables",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "areacello",
+  "positive": "",
+  "standard_name": "cell_area",
+  "units": "m2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

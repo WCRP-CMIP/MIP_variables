@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmon.vsfsit.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "This variable measures the virtual salt flux into sea water due to the melting of sea ice. It is set to zero in models which receive a real water flux.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Virtual Salt Flux into Sea Water Due to Sea Ice Thermodynamics",
+  "modeling_realm": [
+    "ocean",
+    "seaIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "vsfsit",
+  "positive": "",
+  "standard_name": "virtual_salt_flux_into_sea_water_due_to_sea_ice_thermodynamics",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

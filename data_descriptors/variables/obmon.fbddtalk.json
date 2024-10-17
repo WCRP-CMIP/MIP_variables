@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obmon.fbddtalk.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+  "comment": "vertical integral of net biological terms in time rate of change of alkalinity",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "olayer100m"
+  ],
+  "frequency": "mon",
+  "long_name": "Rate of Change of Biological Alkalinity Due to Biological Activity",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "fbddtalk",
+  "positive": "",
+  "standard_name": "integral_wrt_depth_of_tendency_of_sea_water_alkalinity_expressed_as_mole_equivalent_due_to_biological_processes",
+  "units": "mol m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

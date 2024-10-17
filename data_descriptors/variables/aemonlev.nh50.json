@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemonlev.nh50.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Fixed surface layer mixing ratio over 30o-50oN (100ppbv), uniform fixed 50-day exponential decay.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Artificial Tracer with 50 Day Lifetime",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "nh50",
+  "positive": "",
+  "standard_name": "mole_fraction_of_artificial_tracer_with_fixed_lifetime_in_air",
+  "units": "mol mol-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

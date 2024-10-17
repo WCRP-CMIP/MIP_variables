@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "simon.sidmassmelttop.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "The rate of change of sea ice mass through melting at the ice surface divided by grid-cell area",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Sea-Ice Mass Change Through Surface Melting",
+  "modeling_realm": [
+    "seaIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "sidmassmelttop",
+  "positive": "",
+  "standard_name": "tendency_of_sea_ice_amount_due_to_surface_melting",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

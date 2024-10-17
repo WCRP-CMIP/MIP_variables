@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpfx.ksat.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpfx.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpfx.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land",
+  "comment": "Hydraulic conductivity is the constant k in Darcy's Law q=-k grad h for fluid flow q (volume transport per unit area i.e. velocity) through a porous medium, where h is the hydraulic head (pressure expressed as an equivalent depth of water).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "sdepth"
+  ],
+  "frequency": "fx",
+  "long_name": "Saturated Hydraulic Conductivity",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "ksat",
+  "positive": "",
+  "standard_name": "soil_hydraulic_conductivity_at_saturation",
+  "units": "micron s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

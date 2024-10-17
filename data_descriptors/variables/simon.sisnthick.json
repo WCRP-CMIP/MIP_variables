@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "simon.sisnthick.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where snow over sea_ice area: time: mean where sea_ice",
+  "comment": "Actual thickness of snow (snow volume divided by snow-covered area)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Snow Thickness",
+  "modeling_realm": [
+    "seaIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "sisnthick",
+  "positive": "",
+  "standard_name": "surface_snow_thickness",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

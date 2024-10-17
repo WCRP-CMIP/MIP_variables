@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap3hrpt.sza.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap3hrpt.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap3hrpt.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "The angle between the line of sight to the sun and the local vertical",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1"
+  ],
+  "frequency": "3hrPt",
+  "long_name": "Solar Zenith Angle",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "sza",
+  "positive": "",
+  "standard_name": "solar_zenith_angle",
+  "units": "degree",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

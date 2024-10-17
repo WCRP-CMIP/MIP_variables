@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpday.dtes.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "Change in heat storage over the soil layer and the vegetation for which the energy balance is calculated, accumulated over the sampling time interval.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Change in Surface Heat Storage",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "dtes",
+  "positive": "",
+  "standard_name": "change_over_time_in_thermal_energy_content_of_vegetation_and_litter_and_soil",
+  "units": "J m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

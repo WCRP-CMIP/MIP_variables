@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmonlev.prw2h.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Water vapor path for water molecules that contain one atom of the hydrogen-2 isotope (1H 2H O)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Mass of Water Containing Deuterium (1H 2H O) in Layer",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "prw2H",
+  "positive": "",
+  "standard_name": "mass_content_of_water_vapor_containing_single_2H_in_atmosphere_layer",
+  "units": "kg m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

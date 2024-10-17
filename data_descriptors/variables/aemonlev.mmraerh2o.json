@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemonlev.mmraerh2o.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Mass fraction is used in the construction mass_fraction_of_X_in_Y, where X is a material constituent of Y. It means the ratio of the mass of X to the mass of Y (including X). 'Aerosol' means the system of suspended liquid or solid particles in air (except cloud droplets) and their carrier gas, the air itself. 'Ambient_aerosol' means that the aerosol is measured or modelled at the ambient state of pressure, temperature and relative humidity that exists in its immediate environment. 'Ambient aerosol particles' are aerosol particles that have taken up ambient water through hygroscopic growth. The extent of hygroscopic growth depends on the relative humidity and the composition of the particles.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Aerosol Water Mass Mixing Ratio",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "mmraerh2o",
+  "positive": "",
+  "standard_name": "mass_fraction_of_water_in_ambient_aerosol_particles_in_air",
+  "units": "kg kg-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obyrlev.dissic.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obyrlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obyrlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Dissolved Inorganic Carbon Concentration",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "dissic",
+  "positive": "",
+  "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_in_sea_water",
+  "units": "mol m-3",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap3hrpt.evspsbl.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap3hrpt.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap3hrpt.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "Evaporation at surface (also known as evapotranspiration): flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1"
+  ],
+  "frequency": "3hrPt",
+  "long_name": "Evaporation Including Sublimation and Transpiration",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "evspsbl",
+  "positive": "",
+  "standard_name": "water_evapotranspiration_flux",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

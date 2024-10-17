@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmonlev.vmo.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "--OPT",
+  "cell_methods": "time: mean",
+  "comment": "Y-ward mass transport from resolved and parameterized advective transport.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Ocean Mass Y Transport",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "vmo",
+  "positive": "",
+  "standard_name": "ocean_mass_y_transport",
+  "units": "kg s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

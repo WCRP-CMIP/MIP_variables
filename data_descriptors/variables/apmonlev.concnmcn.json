@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmonlev.concnmcn.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "includes all particles with diameter smaller than 3 nm",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Number Concentration of Nucleation Mode Aerosol",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "concnmcn",
+  "positive": "",
+  "standard_name": "number_concentration_of_nucleation_mode_ambient_aerosol_particles_in_air",
+  "units": "m-3",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

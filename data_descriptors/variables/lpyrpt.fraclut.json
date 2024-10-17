@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpyrpt.fraclut.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpyrpt.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpyrpt.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land over all_area_types time: point",
+  "comment": "End of year values (not annual mean); note that percentage should be reported as percentage of land grid cell (example: frac_lnd = 0.5, frac_ocn = 0.5, frac_crop_lnd = 0.2 (of land portion of grid cell), then frac_lut(crop) = 0.5*0.2 = 0.1)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "landUse",
+    "time1"
+  ],
+  "frequency": "yrPt",
+  "long_name": "Percentage of Grid Cell for Each Land-Use Tile",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "fracLut",
+  "positive": "",
+  "standard_name": "area_fraction",
+  "units": "%",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmon.tasmincrop.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where crops time: minimum within days time: mean over days",
+  "comment": "minimum near-surface (usually, 2 meter) air temperature (add cell_method attribute 'time: min')",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height2m"
+  ],
+  "frequency": "mon",
+  "long_name": "Daily Minimum Near-Surface Air Temperature over Crop Tile",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tasminCrop",
+  "positive": "",
+  "standard_name": "air_temperature",
+  "units": "K",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

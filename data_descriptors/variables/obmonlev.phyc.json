@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obmonlev.phyc.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "sum of phytoplankton carbon component concentrations.  In most (all?) cases this is the sum of phycdiat and phycmisc (i.e., 'Diatom Carbon Concentration' and 'Non-Diatom Phytoplankton Carbon Concentration'",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Phytoplankton Carbon Concentration",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "phyc",
+  "positive": "",
+  "standard_name": "mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water",
+  "units": "mol m-3",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmon.thetaot700.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: depth: time: mean",
+  "comment": "Upper 700m, 2D field",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "depth700m"
+  ],
+  "frequency": "mon",
+  "long_name": "Depth Average Potential Temperature of Upper 700m",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "thetaot700",
+  "positive": "",
+  "standard_name": "sea_water_potential_temperature",
+  "units": "degC",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

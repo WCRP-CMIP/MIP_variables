@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmonlev.concdust.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Mass concentration means mass per unit volume and is used in the construction mass_concentration_of_X_in_Y, where X is a material constituent of Y. A chemical species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox_expressed_as_nitrogen'. 'Aerosol' means the system of suspended liquid or solid particles in air (except cloud droplets) and their carrier gas, the air itself. Aerosol particles take up ambient water (a process known as hygroscopic growth) depending on the relative humidity and the composition of the particles. 'Dry aerosol particles' means aerosol particles without any water uptake.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Concentration of Dust",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "concdust",
+  "positive": "",
+  "standard_name": "mass_concentration_of_dust_dry_aerosol_particles_in_air",
+  "units": "kg m-3",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

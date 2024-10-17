@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opyr.opottempmint.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opyr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opyr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Integral over the full ocean depth of the product of sea water density and potential temperature.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Integral with Respect to Depth of Product of Sea Water Density and Potential Temperature",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "opottempmint",
+  "positive": "",
+  "standard_name": "integral_wrt_depth_of_product_of_potential_temperature_and_sea_water_density",
+  "units": "degC kg m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

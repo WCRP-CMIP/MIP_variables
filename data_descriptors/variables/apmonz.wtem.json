@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmonz.wtem.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "Transformed Eulerian Mean Diagnostics w*, upward component of the residual meridional circulation (v*, w*) derived from 6 hr or higher frequency data fields (use instantaneous daily fields or 12 hr fields if the 6 hr data are not available). Scale height: 6950 m",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Transformed Eulerian Mean Upward Wind",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "wtem",
+  "positive": "",
+  "standard_name": "upward_transformed_eulerian_mean_air_velocity",
+  "units": "m s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

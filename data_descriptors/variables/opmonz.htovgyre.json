@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmonz.htovgyre.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+  "comment": "From all advective mass transport processes, resolved and parameterized.",
+  "dimensions": [
+    "latitude",
+    "basin",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Northward Ocean Heat Transport Due to Gyre",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "htovgyre",
+  "positive": "",
+  "standard_name": "northward_ocean_heat_transport_due_to_gyre",
+  "units": "W",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

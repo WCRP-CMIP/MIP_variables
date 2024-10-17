@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "giamon.licalvf.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "giamon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "giamon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "comment": "Loss of ice mass resulting from iceberg calving. Computed as the rate of mass loss by the ice shelf (in kg s-1) divided by the horizontal area of the ice sheet (m2) in the grid box.",
+  "dimensions": [
+    "xant",
+    "yant",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Land Ice Calving Flux",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "licalvf",
+  "positive": "",
+  "standard_name": "land_ice_specific_mass_flux_due_to_calving",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

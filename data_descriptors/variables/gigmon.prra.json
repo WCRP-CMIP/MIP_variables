@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "gigmon.prra.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "gigmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "gigmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
+  "dimensions": [
+    "xgre",
+    "ygre",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Rainfall Flux over Land Ice",
+  "modeling_realm": [
+    "landIce",
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "prra",
+  "positive": "",
+  "standard_name": "rainfall_flux",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,39 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "giafx.hfgeoubed.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "giafx.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "giafx.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: mean where grounded_ice_sheet",
+  "comment": "Upward geothermal heat flux per unit area into the base of grounded land ice. This is related to the geothermal heat flux out of the bedrock, but may be modified by horizontal transport due to run-off and by melting at the interface.",
+  "dimensions": [
+    "xant",
+    "yant"
+  ],
+  "frequency": "fx",
+  "long_name": "Geothermal Heat Flux Beneath Land Ice",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "hfgeoubed",
+  "positive": "",
+  "standard_name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

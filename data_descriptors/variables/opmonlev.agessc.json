@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmonlev.agessc.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Time elapsed since water was last in surface layer of the ocean.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Sea Water Age Since Surface Contact",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "agessc",
+  "positive": "",
+  "standard_name": "sea_water_age_since_surface_contact",
+  "units": "yr",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

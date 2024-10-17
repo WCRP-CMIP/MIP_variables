@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "giayr.libmassbffl.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "giayr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "giayr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: time: mean where floating_ice_shelf (comment: mask=sftflf)",
+  "comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice base.  A negative value means loss of ice. Computed as the total basal mass balance on the floating land ice (floating ice shelf) portion of the grid cell divided by floating land ice (floating ice shelf) area in the grid cell. Cell_methods: area: mean where floating_ice_shelf",
+  "dimensions": [
+    "xant",
+    "yant",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Basal Specific Mass Balance Flux of Floating Ice Shelf",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "libmassbffl",
+  "positive": "",
+  "standard_name": "land_ice_basal_specific_mass_balance_flux",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

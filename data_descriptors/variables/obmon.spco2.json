@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obmon.spco2.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "The surface called 'surface' means the lower boundary of the atmosphere. The partial pressure of a dissolved gas in sea water is the partial pressure in air with which it would be in equilibrium. The partial pressure of a gaseous constituent of air is the pressure which it alone would exert with unchanged temperature and number of moles per unit volume. The chemical formula for carbon dioxide is CO2.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "depth0m"
+  ],
+  "frequency": "mon",
+  "long_name": "Surface Aqueous Partial Pressure of CO2",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "spco2",
+  "positive": "",
+  "standard_name": "surface_partial_pressure_of_carbon_dioxide_in_sea_water",
+  "units": "Pa",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

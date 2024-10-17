@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemon.pod0.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: sum",
+  "comment": "Accumulated stomatal ozone flux over the threshold of 0 mol m-2 s-1; Computation: Time Integral of (hourly above canopy ozone concentration * stomatal conductance * Rc/(Rb+Rc) )",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Phytotoxic Ozone Dose",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "pod0",
+  "positive": "",
+  "standard_name": "integral_wrt_time_of_mole_stomatal_uptake_of_ozone",
+  "units": "mol m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

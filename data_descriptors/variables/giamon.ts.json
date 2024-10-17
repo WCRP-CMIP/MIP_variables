@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "giamon.ts.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "giamon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "giamon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "comment": "Temperature of the lower boundary of the atmosphere",
+  "dimensions": [
+    "xant",
+    "yant",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Surface Temperature",
+  "modeling_realm": [
+    "landIce",
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "ts",
+  "positive": "",
+  "standard_name": "surface_temperature",
+  "units": "K",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

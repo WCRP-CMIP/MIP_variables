@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "simon.sirdgconc.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+  "comment": "Fraction of sea ice, by area, which is covered by sea ice ridges, giving equal weight to every square metre of sea ice .",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "typesirdg"
+  ],
+  "frequency": "mon",
+  "long_name": "Percentage Cover of Sea Ice by Ridging",
+  "modeling_realm": [
+    "seaIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "sirdgconc",
+  "positive": "",
+  "standard_name": "area_fraction",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

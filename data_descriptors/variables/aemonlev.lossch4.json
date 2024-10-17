@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemonlev.lossch4.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "monthly averaged atmospheric loss",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Monthly Loss of Atmospheric Methane",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "lossch4",
+  "positive": "",
+  "standard_name": "tendency_of_atmosphere_mole_concentration_of_methane_due_to_chemical_destruction",
+  "units": "mol m-3 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

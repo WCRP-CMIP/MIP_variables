@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemonz.cly.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "Total family (the sum of all appropriate species in the model) ; list the species in the netCDF header, e.g. Cly = HCl + ClONO2 + HOCl + ClO + Cl + 2*Cl2O2 +2Cl2 + OClO + BrCl Definition: Total inorganic stratospheric chlorine (e.g., HCl, ClO) resulting from degradation of chlorine-containing source gases (CFCs, HCFCs, VSLS), and natural inorganic chlorine sources (e.g., sea salt and other aerosols) add comment attribute with detailed description about how the model calculates these fields",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Total Inorganic Chlorine Volume Mixing Ratio",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "cly",
+  "positive": "",
+  "standard_name": "mole_fraction_of_inorganic_chlorine_in_air",
+  "units": "mol mol-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

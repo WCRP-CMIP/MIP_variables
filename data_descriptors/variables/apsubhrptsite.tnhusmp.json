@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apsubhrptsite.tnhusmp.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apsubhrptsite.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apsubhrptsite.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: point time: point",
+  "comment": "Tendency of specific humidity due to model physics. This includes sources and sinks from parametrized moist physics (e.g. convection, boundary layer, stratiform condensation/evaporation, etc.) and excludes sources and sinks from resolved dynamics or from horizontal or vertical numerical diffusion not associated with model physics.  For example any diffusive mixing by the boundary layer scheme would be included.",
+  "dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "frequency": "subhrPt",
+  "long_name": "Tendency of Specific Humidity Due to Model Physics",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tnhusmp",
+  "positive": "",
+  "standard_name": "tendency_of_specific_humidity_due_to_model_physics",
+  "units": "s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

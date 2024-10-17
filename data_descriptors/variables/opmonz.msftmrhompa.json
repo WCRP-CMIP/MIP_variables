@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmonz.msftmrhompa.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+  "comment": "CMIP5 called this 'due to Bolus Advection'.  Name change respects the more general physics of the mesoscale parameterizations.",
+  "dimensions": [
+    "latitude",
+    "rho",
+    "basin",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "msftmrhompa",
+  "positive": "",
+  "standard_name": "ocean_meridional_overturning_mass_streamfunction_due_to_parameterized_mesoscale_eddy_advection",
+  "units": "kg s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

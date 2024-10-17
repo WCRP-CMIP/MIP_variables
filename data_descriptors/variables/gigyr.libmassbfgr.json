@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "gigyr.libmassbfgr.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "gigyr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "gigyr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+  "comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice base.  A negative value means loss of ice. Computed as the total basal mass balance on the grounded land ice portion of the grid cell divided by grounded land ice area in the grid cell. Cell_methods: area: mean where grounded_ice_sheet",
+  "dimensions": [
+    "xgre",
+    "ygre",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "libmassbfgr",
+  "positive": "",
+  "standard_name": "land_ice_basal_specific_mass_balance_flux",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

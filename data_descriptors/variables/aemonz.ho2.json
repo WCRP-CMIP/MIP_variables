@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemonz.ho2.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of hydroperoxyl radical is HO2.",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "HO2 Volume Mixing Ratio",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "ho2",
+  "positive": "",
+  "standard_name": "mole_fraction_of_hydroperoxyl_radical_in_air",
+  "units": "mol mol-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

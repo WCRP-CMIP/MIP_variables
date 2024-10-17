@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemon.od550csaer.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "AOD from the ambient aerosols in clear skies if od550aer is for all-sky (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute 'wavelength: 550nm'",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "lambda550nm"
+  ],
+  "frequency": "mon",
+  "long_name": "Ambient Aerosol Optical Thickness at 550nm",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "od550csaer",
+  "positive": "",
+  "standard_name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

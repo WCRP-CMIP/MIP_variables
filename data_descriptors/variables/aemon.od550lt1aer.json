@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemon.od550lt1aer.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "od550 due to particles with wet diameter less than 1 um  (ambient here means wetted). When models do not include explicit size information, it can be assumed that all anthropogenic aerosols and natural secondary aerosols have diameter less than 1 um.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "lambda550nm"
+  ],
+  "frequency": "mon",
+  "long_name": "Ambient Fine Aerosol Optical Depth at 550nm",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "od550lt1aer",
+  "positive": "",
+  "standard_name": "atmosphere_optical_thickness_due_to_pm1_ambient_aerosol_particles",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

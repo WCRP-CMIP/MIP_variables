@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpday.dsw.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "The phrase 'land_water_amount', often known as 'Terrestrial Water Storage', includes: surface liquid water (water in rivers, wetlands, lakes, reservoirs, rainfall intercepted by the canopy); surface ice and snow (glaciers, ice caps, grounded ice sheets not displacing sea water, river and lake ice, other surface ice such as frozen flood water, snow lying on the surface and intercepted by the canopy); subsurface water (liquid and frozen soil water, groundwater).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Change in Surface Water Storage",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "dsw",
+  "positive": "",
+  "standard_name": "change_over_time_in_land_water_amount",
+  "units": "kg m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

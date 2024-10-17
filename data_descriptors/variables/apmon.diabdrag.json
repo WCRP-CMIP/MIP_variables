@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmon.diabdrag.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "time: mean",
+  "comment": "Other sub-grid scale/numerical zonal drag excluding that already provided for the parameterized orographic and non-orographic gravity waves. This would be used to calculate the total 'diabatic drag'. Contributions to this additional drag such Rayleigh friction and diffusion that can be calculated from the monthly mean wind fields should not be included, but details (e.g. coefficients) of the friction and/or diffusion used in the model should be provided separately.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "plev19",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Tendency of Eastward Wind from Numerical Artefacts",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "diabdrag",
+  "positive": "",
+  "standard_name": "tendency_of_eastward_wind_due_to_numerical_artefacts",
+  "units": "m s-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

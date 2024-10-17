@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmon.lwsrfasdust.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "The direct radiative effect refers to the instantaneous radiative impact on the Earth's energy balance, excluding secondary effects such as changes in cloud cover.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "All-Sky Surface Longwave Radiative Flux Due to Dust",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "lwsrfasdust",
+  "positive": "",
+  "standard_name": "surface_net_downward_longwave_dust_ambient_aerosol_particles_direct_radiative_effect",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

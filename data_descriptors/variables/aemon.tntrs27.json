@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemon.tntrs27.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "time: mean",
+  "comment": "Tendency of air temperature due to shortwave radiative heating",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "plev27",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tntrs27",
+  "positive": "",
+  "standard_name": "tendency_of_air_temperature_due_to_shortwave_heating",
+  "units": "K s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

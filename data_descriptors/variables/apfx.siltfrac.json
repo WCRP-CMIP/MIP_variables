@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apfx.siltfrac.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apfx.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apfx.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land",
+  "comment": "Volume fraction of silt in soil",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "sdepth"
+  ],
+  "frequency": "fx",
+  "long_name": "Silt Fraction",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "siltfrac",
+  "positive": "",
+  "standard_name": "volume_fraction_of_silt_in_soil",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

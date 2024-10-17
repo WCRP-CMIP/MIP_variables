@@ -1,0 +1,39 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apfx.ps.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apfx.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apfx.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean",
+  "comment": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates",
+  "dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "frequency": "fx",
+  "long_name": "Surface Air Pressure",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "ps",
+  "positive": "",
+  "standard_name": "surface_air_pressure",
+  "units": "Pa",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

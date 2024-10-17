@@ -1,0 +1,39 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apsubhrptsite.rlut.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apsubhrptsite.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apsubhrptsite.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: point time: point",
+  "comment": "at the top of the atmosphere (to be compared with satellite measurements)",
+  "dimensions": [
+    "site",
+    "time1"
+  ],
+  "frequency": "subhrPt",
+  "long_name": "TOA Outgoing Longwave Radiation",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "rlut",
+  "positive": "up",
+  "standard_name": "toa_outgoing_longwave_flux",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

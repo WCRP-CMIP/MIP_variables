@@ -1,0 +1,39 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opfx.ugrido.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opfx.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opfx.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "--UGRID",
+  "cell_methods": "",
+  "comment": "Ony required for models with unstructured grids: this label should be used for a file containing information about the grid structure, following the UGRID convention.",
+  "dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "frequency": "fx",
+  "long_name": "UGRID Grid Specification",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "ugrido",
+  "positive": "",
+  "standard_name": "longitude",
+  "units": "",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

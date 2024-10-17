@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpmon.wtd.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellr",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "Depth is the vertical distance below the surface. The water table is the surface below which the soil is saturated with water such that all pore spaces are filled.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Water Table Depth",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "wtd",
+  "positive": "",
+  "standard_name": "water_table_depth",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

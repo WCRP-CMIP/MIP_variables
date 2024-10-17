@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opday.omldamax.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean time: maximum",
+  "comment": "The ocean mixed layer is the upper part of the ocean, regarded as being well-mixed. The base of the mixed layer defined by the mixing scheme is a diagnostic of ocean models. 'Thickness' means the vertical extent of a layer.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Mean Daily Maximum Ocean Mixed Layer Thickness Defined by Mixing Scheme",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "omldamax",
+  "positive": "",
+  "standard_name": "ocean_mixed_layer_thickness_defined_by_mixing_scheme",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

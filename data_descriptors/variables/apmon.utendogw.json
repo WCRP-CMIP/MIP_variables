@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmon.utendogw.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "time: mean",
+  "comment": "Tendency of the eastward wind by parameterized orographic gravity waves.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "plev19",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Eastward Acceleration Due to Orographic Gravity Wave Drag",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "utendogw",
+  "positive": "",
+  "standard_name": "tendency_of_eastward_wind_due_to_orographic_gravity_wave_drag",
+  "units": "m s-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

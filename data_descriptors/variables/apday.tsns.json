@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apday.tsns.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "Temperature of the snow surface as it interacts with the atmosphere, averaged over a grid cell.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Snow Surface Temperature",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tsns",
+  "positive": "",
+  "standard_name": "surface_temperature",
+  "units": "K",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

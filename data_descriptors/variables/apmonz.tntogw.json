@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmonz.tntogw.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "Temperature tendency due to dissipation of parameterized orographic gravity waves.",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Temperature Tendency Due to Orographic Gravity Wave Dissipation",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tntogw",
+  "positive": "",
+  "standard_name": "tendency_of_air_temperature_due_to_dissipation_of_orographic_gravity_waves",
+  "units": "K s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

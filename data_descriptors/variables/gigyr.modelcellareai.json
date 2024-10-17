@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "gigyr.modelcellareai.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "gigyr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "gigyr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: time: mean",
+  "comment": "Horizontal area of ice-sheet grid cells",
+  "dimensions": [
+    "xgre",
+    "ygre",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "The Cell Area of the Ice Sheet Model",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "modelCellAreai",
+  "positive": "",
+  "standard_name": "cell_area",
+  "units": "m2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

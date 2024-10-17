@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apdayz.va.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apdayz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apdayz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "Meridional wind (positive in a northward direction).",
+  "dimensions": [
+    "latitude",
+    "plev19",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Northward Wind",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "va",
+  "positive": "",
+  "standard_name": "northward_wind",
+  "units": "m s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "simon.simpconc.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+  "comment": "Percentage of sea ice, by area, which is covered by melt ponds, giving equal weight to every square metre of sea ice .",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "typemp"
+  ],
+  "frequency": "mon",
+  "long_name": "Percentage Cover of Sea Ice by Meltpond",
+  "modeling_realm": [
+    "seaIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "simpconc",
+  "positive": "",
+  "standard_name": "area_fraction",
+  "units": "%",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmondiurnal.rsutcs.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmondiurnal.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmondiurnal.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: mean within days time: mean over days",
+  "comment": "Calculated in the absence of clouds.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time3"
+  ],
+  "frequency": "1hrCM",
+  "long_name": "TOA Outgoing Clear-Sky Shortwave Radiation",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "rsutcs",
+  "positive": "up",
+  "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

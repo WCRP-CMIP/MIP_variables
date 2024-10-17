@@ -1,0 +1,42 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap3hrptlev.aerasymbnd.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap3hrptlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap3hrptlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "The asymmetry factor is the angular integral of the aerosol scattering phase function weighted by the cosine of the angle with the incident radiation flux. The asymmetry coefficient is here an integral over all wavelength bands.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "spectband",
+    "time1"
+  ],
+  "frequency": "3hrPt",
+  "long_name": "Aerosol Level Asymmetry Parameter for Each Band",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "aerasymbnd",
+  "positive": "",
+  "standard_name": "asymmetry_factor_of_ambient_aerosol_particles",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

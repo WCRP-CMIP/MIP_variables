@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apsubhrptsite.rldcs.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apsubhrptsite.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apsubhrptsite.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: point time: point",
+  "comment": "Downwelling clear-sky longwave radiation (includes the fluxes at the surface and TOA)",
+  "dimensions": [
+    "alevhalf",
+    "site",
+    "time1"
+  ],
+  "frequency": "subhrPt",
+  "long_name": "Downwelling Clear-Sky Longwave Radiation",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "rldcs",
+  "positive": "down",
+  "standard_name": "downwelling_longwave_flux_in_air_assuming_clear_sky",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,39 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opfx.hfgeou.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opfx.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opfx.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea",
+  "comment": "Upward geothermal heat flux per unit area on the sea floor",
+  "dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "frequency": "fx",
+  "long_name": "Upward Geothermal Heat Flux at Sea Floor",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "hfgeou",
+  "positive": "up",
+  "standard_name": "upward_geothermal_heat_flux_at_sea_floor",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

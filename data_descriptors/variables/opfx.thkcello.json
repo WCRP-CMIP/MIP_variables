@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opfx.thkcello.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opfx.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opfx.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean",
+  "comment": "'Thickness' means the vertical extent of a layer. 'Cell' refers to a model grid-cell.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel"
+  ],
+  "frequency": "fx",
+  "long_name": "Ocean Model Cell Thickness",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "thkcello",
+  "positive": "",
+  "standard_name": "cell_thickness",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apday.zg1000.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Geopotential height on the 1000 hPa surface",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "p1000"
+  ],
+  "frequency": "day",
+  "long_name": "Geopotential Height at 1000hPa",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "zg1000",
+  "positive": "",
+  "standard_name": "geopotential_height",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpmon.csoilpools.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "For models with multiple soil carbon pools, report each pool here. If models also have vertical discretisation these should be aggregated",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "soilpools",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Carbon Mass in Each Model Soil Pool (Summed over Vertical Levels)",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "cSoilPools",
+  "positive": "",
+  "standard_name": "soil_mass_content_of_carbon",
+  "units": "kg m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

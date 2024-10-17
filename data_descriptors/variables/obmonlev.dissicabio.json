@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obmonlev.dissicabio.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Abiotic Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Abiotic Dissolved Inorganic Carbon Concentration",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "dissicabio",
+  "positive": "",
+  "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_abiotic_analogue_in_sea_water",
+  "units": "mol m-3",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

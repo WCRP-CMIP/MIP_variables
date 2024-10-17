@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "acmonz.oxprod.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "acmonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "acmonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "total production rate of o+o1d+o3 including o2 photolysis and all o3 producing reactions",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Total Odd Oxygen (Ox) Production Rate",
+  "modeling_realm": [
+    "atmosChem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "oxprod",
+  "positive": "",
+  "standard_name": "tendency_of_mole_concentration_of_ox_in_air_due_to_chemical_and_photolytic_production",
+  "units": "mol m-3 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

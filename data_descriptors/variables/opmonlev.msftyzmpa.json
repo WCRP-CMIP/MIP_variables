@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmonlev.msftyzmpa.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "time: mean grid_longitude: mean",
+  "comment": "CMIP5 called this 'due to Bolus Advection'.  Name change respects the more general physics of the mesoscale parameterizations.",
+  "dimensions": [
+    "gridlatitude",
+    "olevel",
+    "basin",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Ocean Y Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "msftyzmpa",
+  "positive": "",
+  "standard_name": "ocean_y_overturning_mass_streamfunction_due_to_parameterized_mesoscale_eddy_advection",
+  "units": "kg s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

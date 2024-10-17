@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemonlev.jno2.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Photolysis rate of nitrogen dioxide (NO2)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Photolysis Rate of NO2",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "jno2",
+  "positive": "",
+  "standard_name": "photolysis_rate_of_nitrogen_dioxide",
+  "units": "s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

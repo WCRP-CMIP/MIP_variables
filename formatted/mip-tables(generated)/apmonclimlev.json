@@ -1,0 +1,76 @@
+{
+    "id": "apmonclimlev.json",
+    "type": "mip-table",
+    "Conventions": "CF-1.7 CMIP-6.5",
+    "approx_interval": 30.0,
+    "checksum": "",
+    "cmor_version": "3.8.0",
+    "data_specs_version": "6.5.0.0",
+    "generic_levels": [
+        "alevel",
+        "alevhalf"
+    ],
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "table_id": "APmonClimLev",
+    "variable_entry": {
+        "pfull": {
+            "id": "apmonclimlev.pfull.json",
+            "type": "mip-variable",
+            "cell_measures": "area: areacella",
+            "cell_methods": "area: mean time: mean within years time: mean over years",
+            "comment": "Air pressure on model levels",
+            "dimensions": [
+                "longitude",
+                "latitude",
+                "alevel",
+                "time2"
+            ],
+            "dtype": "real",
+            "frequency": "monC",
+            "long_name": "Pressure at Model Full-Levels",
+            "modeling_realm": "atmos",
+            "ok_max_mean_abs": "",
+            "ok_min_mean_abs": "",
+            "out_name": "pfull",
+            "positive": "",
+            "standard_name": "air_pressure",
+            "themes": "TBC",
+            "units": "Pa",
+            "valid_max": "",
+            "valid_min": ""
+        },
+        "phalf": {
+            "id": "apmonclimlev.phalf.json",
+            "type": "mip-variable",
+            "cell_measures": "area: areacella",
+            "cell_methods": "area: mean time: mean within years time: mean over years",
+            "comment": "Air pressure on model half-levels",
+            "dimensions": [
+                "longitude",
+                "latitude",
+                "alevhalf",
+                "time2"
+            ],
+            "dtype": "real",
+            "frequency": "monC",
+            "long_name": "Pressure on Model Half-Levels",
+            "modeling_realm": "atmos",
+            "ok_max_mean_abs": "",
+            "ok_min_mean_abs": "",
+            "out_name": "phalf",
+            "positive": "",
+            "standard_name": "air_pressure",
+            "themes": "TBC",
+            "units": "Pa",
+            "valid_max": "",
+            "valid_min": ""
+        }
+    },
+    "mip_participation": [
+        "cmip6",
+        "cmip6plus"
+    ]
+}

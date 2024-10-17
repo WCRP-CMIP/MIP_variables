@@ -1,0 +1,38 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "simon.siareas.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: time: mean",
+  "comment": "total area of sea ice in the Southern hemisphere",
+  "dimensions": [
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Sea-Ice Area South",
+  "modeling_realm": [
+    "seaIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "siareas",
+  "positive": "",
+  "standard_name": "sea_ice_area",
+  "units": "1e6 km2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

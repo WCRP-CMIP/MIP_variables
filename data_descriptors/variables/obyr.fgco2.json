@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obyr.fgco2.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obyr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obyr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Gas exchange flux of CO2 (positive into ocean)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Surface Downward Mass Flux of Carbon as CO2 [kgC m-2 s-1]",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "fgco2",
+  "positive": "down",
+  "standard_name": "surface_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

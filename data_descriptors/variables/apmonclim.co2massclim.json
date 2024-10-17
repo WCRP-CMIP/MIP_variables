@@ -1,0 +1,38 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmonclim.co2massclim.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmonclim.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmonclim.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: mean time: mean within years time: mean over years",
+  "comment": "Total atmospheric mass of Carbon Dioxide",
+  "dimensions": [
+    "time2"
+  ],
+  "frequency": "monC",
+  "long_name": "Total Atmospheric Mass of CO2",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "co2massClim",
+  "positive": "",
+  "standard_name": "atmosphere_mass_of_carbon_dioxide",
+  "units": "kg",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap3hrptlev.aerssabnd.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap3hrptlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap3hrptlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "The single scattering albedo is the fraction of radiation in an incident light beam scattered by the particles of an aerosol reference volume for a given wavelength. It is the ratio of the scattering and the extinction coefficients of the aerosol particles in the reference volume. ",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "spectband",
+    "time1"
+  ],
+  "frequency": "3hrPt",
+  "long_name": "Aerosol Level Single Scattering Albedo for Each Band",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "aerssabnd",
+  "positive": "",
+  "standard_name": "single_scattering_albedo_in_air_due_to_ambient_aerosol_particles",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

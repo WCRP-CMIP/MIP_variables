@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "acmon.flashrate.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "acmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "acmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "proposed name: lightning_flash_rate (units to be interpreted as 'counts km-2 s-1)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Lightning Flash Rate",
+  "modeling_realm": [
+    "atmosChem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "flashrate",
+  "positive": "",
+  "standard_name": "frequency_of_lightning_flashes_per_unit_area",
+  "units": "km-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

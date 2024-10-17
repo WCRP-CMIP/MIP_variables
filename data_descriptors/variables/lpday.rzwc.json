@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpday.rzwc.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "'Content' indicates a quantity per unit area. The content of a soil layer is the vertical integral of the specified quantity within the layer. The quantity with standard name mass_content_of_water_in_soil_layer_defined_by_root_depth is the vertical integral between the surface and the depth to which plant roots penetrate. A coordinate variable or scalar coordinate variable with standard name root_depth can be used to specify the extent of the layer. 'Water' means water in all phases.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Root Zone Soil Moisture",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "rzwc",
+  "positive": "",
+  "standard_name": "mass_content_of_water_in_soil_layer_defined_by_root_depth",
+  "units": "kg m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

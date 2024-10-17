@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "simon.siforcetilty.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "simon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "--MODEL",
+  "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+  "comment": "Y-component of force on sea ice caused by sea-surface tilt",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Sea-Surface Tilt Term in Force Balance (Y-Component)",
+  "modeling_realm": [
+    "seaIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "siforcetilty",
+  "positive": "",
+  "standard_name": "sea_ice_y_force_per_unit_area_due_to_sea_surface_tilt",
+  "units": "N m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

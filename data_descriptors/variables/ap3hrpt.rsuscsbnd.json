@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap3hrpt.rsuscsbnd.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap3hrpt.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap3hrpt.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "time: point",
+  "comment": "Calculated with aerosols but without clouds. This is a standard clear-sky calculation",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "spectband",
+    "time1"
+  ],
+  "frequency": "3hrPt",
+  "long_name": "Surface Upwelling Clear-Sky Shortwave Radiation for Each Band",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "rsuscsbnd",
+  "positive": "up",
+  "standard_name": "surface_upwelling_shortwave_flux_in_air_assuming_clear_sky",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

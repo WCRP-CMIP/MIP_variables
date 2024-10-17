@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aeday.zg10.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aeday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aeday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Geopotential height on the 10hPa surface",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "p10"
+  ],
+  "frequency": "day",
+  "long_name": "Geopotential Height at 10hPa",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "zg10",
+  "positive": "",
+  "standard_name": "geopotential_height",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apday.tauvpbl.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "The  downward northward stress associated with the models parameterization of the planetary boundary layer. (This request is related to a WGNE effort to understand how models parameterize the surface stresses.)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Northward Surface Stress from Planetary Boundary Layer Scheme",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tauvpbl",
+  "positive": "",
+  "standard_name": "surface_downward_northward_stress_due_to_boundary_layer_mixing",
+  "units": "Pa",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

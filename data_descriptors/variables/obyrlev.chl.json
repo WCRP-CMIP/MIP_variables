@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obyrlev.chl.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obyrlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obyrlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Sum of chlorophyll from all phytoplankton group concentrations.  In most models this is equal to chldiat+chlmisc, that is the sum of Diatom Chlorophyll Mass Concentration and Other Phytoplankton Chlorophyll Mass Concentration",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "chl",
+  "positive": "",
+  "standard_name": "mass_concentration_of_phytoplankton_expressed_as_chlorophyll_in_sea_water",
+  "units": "kg m-3",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

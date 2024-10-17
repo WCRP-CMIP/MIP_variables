@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obyrlev.zmisc.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obyrlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obyrlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "carbon from additional zooplankton component concentrations alone (e.g. Micro, meso).  Since the models all have different numbers of components, this variable has been included to provide a check for intercomparison between models since some phytoplankton groups are supersets.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Mole Concentration of Other Zooplankton Expressed as Carbon in Sea Water",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "zmisc",
+  "positive": "",
+  "standard_name": "mole_concentration_of_miscellaneous_zooplankton_expressed_as_carbon_in_sea_water",
+  "units": "mol m-3",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

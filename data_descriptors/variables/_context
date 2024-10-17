@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@base": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/",
+    "@vocab": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/",
+    "id": "@id",
+    "type": "@type",
+    "mip-tables": {
+      "@reverse": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/variable_entry"
+    }
+  },
+  "@embed": "@always"
+}

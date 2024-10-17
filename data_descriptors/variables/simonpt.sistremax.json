@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "simonpt.sistremax.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "simonpt.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "simonpt.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+  "comment": "Maximum shear stress in sea ice (second stress invariant)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1"
+  ],
+  "frequency": "monPt",
+  "long_name": "Maximum Shear Stress in Sea Ice",
+  "modeling_realm": [
+    "seaIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "sistremax",
+  "positive": "",
+  "standard_name": "maximum_over_coordinate_rotation_of_sea_ice_horizontal_shear_stress",
+  "units": "N m-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

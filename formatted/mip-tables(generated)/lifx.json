@@ -1,0 +1,69 @@
+{
+    "id": "lifx.json",
+    "type": "mip-table",
+    "Conventions": "CF-1.7 CMIP-6.5",
+    "approx_interval": 0.0,
+    "checksum": "",
+    "cmor_version": "3.8.0",
+    "data_specs_version": "6.5.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "table_id": "LIfx",
+    "variable_entry": {
+        "sftflf": {
+            "id": "lifx.sftflf.json",
+            "type": "mip-variable",
+            "cell_measures": "area: areacella",
+            "cell_methods": "area: mean",
+            "comment": "Percentage of grid cell covered by floating ice shelf, the component of the ice sheet that is flowing over sea water",
+            "dimensions": [
+                "longitude",
+                "latitude"
+            ],
+            "dtype": "real",
+            "frequency": "fx",
+            "long_name": "Floating Ice Shelf Area Percentage",
+            "modeling_realm": "landIce",
+            "ok_max_mean_abs": "",
+            "ok_min_mean_abs": "",
+            "out_name": "sftflf",
+            "positive": "",
+            "standard_name": "floating_ice_shelf_area_fraction",
+            "themes": "TBC",
+            "units": "%",
+            "valid_max": "",
+            "valid_min": ""
+        },
+        "sftgrf": {
+            "id": "lifx.sftgrf.json",
+            "type": "mip-variable",
+            "cell_measures": "area: areacella",
+            "cell_methods": "area: mean",
+            "comment": "Percentage of grid cell covered by grounded ice sheet",
+            "dimensions": [
+                "longitude",
+                "latitude"
+            ],
+            "dtype": "real",
+            "frequency": "fx",
+            "long_name": "Grounded Ice Sheet Area Percentage",
+            "modeling_realm": "landIce",
+            "ok_max_mean_abs": "",
+            "ok_min_mean_abs": "",
+            "out_name": "sftgrf",
+            "positive": "",
+            "standard_name": "grounded_ice_sheet_area_fraction",
+            "themes": "TBC",
+            "units": "%",
+            "valid_max": "",
+            "valid_min": ""
+        }
+    },
+    "mip_participation": [
+        "cmip6",
+        "cmip6plus"
+    ]
+}

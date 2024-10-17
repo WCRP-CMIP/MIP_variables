@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obyrlev.fescav.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obyrlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obyrlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Dissolved Fe removed through nonbiogenic scavenging onto particles",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Non-Biogenic Iron Scavenging",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "fescav",
+  "positive": "",
+  "standard_name": "tendency_of_mole_concentration_of_dissolved_iron_in_sea_water_due_to_scavenging_by_inorganic_particles",
+  "units": "mol m-3 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

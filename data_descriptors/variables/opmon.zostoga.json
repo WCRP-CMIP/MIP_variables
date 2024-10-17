@@ -1,0 +1,38 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmon.zostoga.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "There is no CMIP6 request for zosga nor zossga.",
+  "dimensions": [
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Global Average Thermosteric Sea Level Change",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "zostoga",
+  "positive": "",
+  "standard_name": "global_average_thermosteric_sea_level_change",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

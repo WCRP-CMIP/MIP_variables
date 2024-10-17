@@ -1,0 +1,38 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "giayr.limnsw.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "giayr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "giayr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+  "comment": "The ice sheet mass is computed as the volume above flotation times density. Changes in land_ice_mass_not_displacing_sea_water will always result in a change in sea level, unlike changes in land_ice_mass which may not result in sea level change (such as melting of the floating ice shelves, or portion of ice that sits on bedrock below sea level)",
+  "dimensions": [
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Ice Sheet Mass That Does not Displace Sea Water",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "limnsw",
+  "positive": "",
+  "standard_name": "land_ice_mass_not_displacing_sea_water",
+  "units": "kg",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap6hr.wsgmax100m.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap6hr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap6hr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: maximum",
+  "comment": "Wind speed gust maximum at 100m above surface",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height100m"
+  ],
+  "frequency": "6hr",
+  "long_name": "Maximum Wind Speed of Gust at 100m",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "wsgmax100m",
+  "positive": "",
+  "standard_name": "wind_speed_of_gust",
+  "units": "m s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

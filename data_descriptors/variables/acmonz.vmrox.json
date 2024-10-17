@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "acmonz.vmrox.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "acmonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "acmonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "Mole Fraction of Ox",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Mole Fraction of Odd Oxygen (O, O3 and O1D)",
+  "modeling_realm": [
+    "atmosChem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "vmrox",
+  "positive": "",
+  "standard_name": "mole_fraction_of_ox_in_air",
+  "units": "mol mol-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

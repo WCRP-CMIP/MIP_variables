@@ -1,0 +1,39 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "gigfx.topg.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "gigfx.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "gigfx.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: mean where grounded_ice_sheet",
+  "comment": "The bedrock topography beneath the land ice",
+  "dimensions": [
+    "xgre",
+    "ygre"
+  ],
+  "frequency": "fx",
+  "long_name": "Bedrock Altitude",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "topg",
+  "positive": "",
+  "standard_name": "bedrock_altitude",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

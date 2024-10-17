@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap6hr.va100m.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap6hr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap6hr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Meridional wind at 100m above the surface.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height100m"
+  ],
+  "frequency": "6hr",
+  "long_name": "Northward Wind at 100m",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "va100m",
+  "positive": "",
+  "standard_name": "northward_wind",
+  "units": "m s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

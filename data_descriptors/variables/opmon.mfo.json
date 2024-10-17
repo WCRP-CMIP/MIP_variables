@@ -1,0 +1,39 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmon.mfo.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "time: mean",
+  "comment": "Transport across_line means that which crosses a particular line on the Earth's surface; formally this means the integral along the line of the normal component of the transport.",
+  "dimensions": [
+    "oline",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Sea Water Transport",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "mfo",
+  "positive": "",
+  "standard_name": "sea_water_transport_across_line",
+  "units": "kg s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

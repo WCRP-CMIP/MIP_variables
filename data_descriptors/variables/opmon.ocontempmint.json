@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmon.ocontempmint.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Full column sum of density*cell thickness*conservative temperature. If the model is Boussinesq, then use Boussinesq reference density for the density factor.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Depth Integral of Product of Sea Water Density and Conservative Temperature",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "ocontempmint",
+  "positive": "",
+  "standard_name": "integral_wrt_depth_of_product_of_conservative_temperature_and_sea_water_density",
+  "units": "degC kg m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

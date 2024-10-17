@@ -1,0 +1,42 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap3hrpt.cfadlidarsr532.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap3hrpt.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap3hrpt.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "CFAD (Cloud Frequency Altitude Diagrams) are frequency distributions of radar  reflectivity (or lidar scattering ratio) as a function of altitude. The variable cfadLidarsr532 is defined as the simulated relative frequency of lidar scattering ratio in sampling volumes defined by altitude bins. The lidar is observing at a wavelength of 532nm.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alt40",
+    "scatratio",
+    "time1"
+  ],
+  "frequency": "3hrPt",
+  "long_name": "CALIPSO Scattering Ratio CFAD",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "cfadLidarsr532",
+  "positive": "",
+  "standard_name": "histogram_of_backscattering_ratio_in_air_over_height_above_reference_ellipsoid",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

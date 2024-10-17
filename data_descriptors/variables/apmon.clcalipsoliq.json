@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmon.clcalipsoliq.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "time: mean",
+  "comment": "Percentage liquid water ice cloud cover in CALIPSO standard atmospheric layers.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alt40",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "CALIPSO Liquid Cloud Percentage",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "clcalipsoliq",
+  "positive": "",
+  "standard_name": "liquid_water_cloud_area_fraction_in_atmosphere_layer",
+  "units": "%",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obmon.fddtdisi.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+  "comment": "vertical integral of net time rate of change of dissolved inorganic silicate",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "olayer100m"
+  ],
+  "frequency": "mon",
+  "long_name": "Rate of Change of Net Dissolved Inorganic Silicon",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "fddtdisi",
+  "positive": "",
+  "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_silicon",
+  "units": "mol m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

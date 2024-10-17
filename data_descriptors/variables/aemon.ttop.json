@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemon.ttop.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "cloud_top refers to the top of the highest cloud. Air temperature is the bulk temperature of the air, not the surface (skin) temperature.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Air Temperature at Cloud Top",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "ttop",
+  "positive": "",
+  "standard_name": "air_temperature_at_cloud_top",
+  "units": "K",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

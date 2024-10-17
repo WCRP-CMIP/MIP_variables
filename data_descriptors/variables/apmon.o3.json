@@ -1,0 +1,42 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmon.o3.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "time: mean",
+  "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "plev19",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Mole Fraction of O3",
+  "modeling_realm": [
+    "atmos",
+    "atmosChem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "o3",
+  "positive": "",
+  "standard_name": "mole_fraction_of_ozone_in_air",
+  "units": "mol mol-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

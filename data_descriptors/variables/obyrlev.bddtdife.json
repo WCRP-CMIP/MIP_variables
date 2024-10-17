@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obyrlev.bddtdife.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obyrlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obyrlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Net total of biological terms in time rate of change of dissolved inorganic iron",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Rate of Change of Dissolved Inorganic Iron Due to Biological Activity",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "bddtdife",
+  "positive": "",
+  "standard_name": "tendency_of_mole_concentration_of_dissolved_inorganic_iron_in_sea_water_due_to_biological_processes",
+  "units": "mol m-3 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

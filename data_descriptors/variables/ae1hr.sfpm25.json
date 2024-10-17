@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ae1hr.sfpm25.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ae1hr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ae1hr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Mass fraction of atmospheric particulate compounds with an aerodynamic diameter of less than or equal to 2.5 micrometers. To specify the relative humidity and temperature at which the particle size applies, provide scalar coordinate variables with the standard names of 'relative_humidity' and 'air_temperature'.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "1hr",
+  "long_name": "PM2.5 Mass Mixing Ratio in Lowest Model Layer",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "sfpm25",
+  "positive": "",
+  "standard_name": "mass_fraction_of_pm2p5_ambient_aerosol_particles_in_air",
+  "units": "kg kg-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

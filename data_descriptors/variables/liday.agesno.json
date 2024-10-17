@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "liday.agesno.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "liday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "liday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land time: mean",
+  "comment": "Age of Snow (when computing the time-mean here, the time samples, weighted by the mass of snow on the land portion of the grid cell, are accumulated and then divided by the sum of the weights.  Reported as missing data in regions free of snow on land.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Mean Age of Snow",
+  "modeling_realm": [
+    "landIce",
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "agesno",
+  "positive": "",
+  "standard_name": "age_of_surface_snow",
+  "units": "day",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

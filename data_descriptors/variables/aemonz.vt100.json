@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemonz.vt100.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "Zonally averaged eddy temperature flux at 100hPa as monthly means derived from daily (or higher frequency) fields.",
+  "dimensions": [
+    "latitude",
+    "time",
+    "p100"
+  ],
+  "frequency": "mon",
+  "long_name": "Northward Eddy Temperature Flux",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "vt100",
+  "positive": "",
+  "standard_name": "covariance_over_longitude_of_northward_wind_and_air_temperature",
+  "units": "K m s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opyrlev.volcello.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opyrlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opyrlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: sum where sea time: mean",
+  "comment": "grid-cell volume ca. 2000.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Ocean Grid-Cell Volume",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "volcello",
+  "positive": "",
+  "standard_name": "ocean_volume",
+  "units": "m3",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

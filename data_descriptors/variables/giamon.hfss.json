@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "giamon.hfss.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "giamon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "giamon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "comment": "The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air.",
+  "dimensions": [
+    "xant",
+    "yant",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Surface Upward Sensible Heat Flux",
+  "modeling_realm": [
+    "landIce",
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "hfss",
+  "positive": "up",
+  "standard_name": "surface_upward_sensible_heat_flux",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

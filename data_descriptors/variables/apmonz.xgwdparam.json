@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmonz.xgwdparam.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "Parameterised x-component of gravity wave drag",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Eastward Gravity Wave Drag",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "xgwdparam",
+  "positive": "",
+  "standard_name": "atmosphere_eastward_stress_due_to_gravity_wave_drag",
+  "units": "Pa",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

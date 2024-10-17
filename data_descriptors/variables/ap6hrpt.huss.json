@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap6hrpt.huss.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap6hrpt.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap6hrpt.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "Near-surface (usually, 2 meter) specific humidity.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1",
+    "height2m"
+  ],
+  "frequency": "6hrPt",
+  "long_name": "Near-Surface Specific Humidity",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "huss",
+  "positive": "",
+  "standard_name": "specific_humidity",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

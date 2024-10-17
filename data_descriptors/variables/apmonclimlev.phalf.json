@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmonclimlev.phalf.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmonclimlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmonclimlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: mean within years time: mean over years",
+  "comment": "Air pressure on model half-levels",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevhalf",
+    "time2"
+  ],
+  "frequency": "monC",
+  "long_name": "Pressure on Model Half-Levels",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "phalf",
+  "positive": "",
+  "standard_name": "air_pressure",
+  "units": "Pa",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

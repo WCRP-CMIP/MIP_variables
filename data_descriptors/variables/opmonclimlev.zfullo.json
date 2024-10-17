@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmonclimlev.zfullo.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmonclimlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmonclimlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean time: mean within years time: mean over years",
+  "comment": "Depth below geoid",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time2"
+  ],
+  "frequency": "monC",
+  "long_name": "Depth Below Geoid of Ocean Layer",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "zfullo",
+  "positive": "",
+  "standard_name": "depth_below_geoid",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

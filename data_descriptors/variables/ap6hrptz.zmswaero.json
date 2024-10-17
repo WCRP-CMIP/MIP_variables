@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap6hrptz.zmswaero.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap6hrptz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap6hrptz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: point",
+  "comment": "shortwave heating rate due to volcanic aerosols to be diagnosed through double radiation call, zonal average values required",
+  "dimensions": [
+    "latitude",
+    "alevel",
+    "time1"
+  ],
+  "frequency": "6hrPt",
+  "long_name": "Zonal Mean Shortwave Heating Rate Due to Volcanic Aerosols",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "zmswaero",
+  "positive": "",
+  "standard_name": "tendency_of_air_temperature_due_to_shortwave_heating_from_volcanic_ambient_aerosol_particles",
+  "units": "K s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

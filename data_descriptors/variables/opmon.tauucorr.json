@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmon.tauucorr.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "--OPT",
+  "cell_methods": "time: mean",
+  "comment": "This is the stress on the liquid ocean from overlying atmosphere, sea ice, ice shelf, etc.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Surface Downward X Stress Correction",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tauucorr",
+  "positive": "down",
+  "standard_name": "downward_x_stress_correction_at_sea_water_surface",
+  "units": "N m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpyr.baresoilfrac.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpyr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpyr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land over all_area_types time: mean",
+  "comment": "Percentage of entire grid cell  that is covered by bare soil.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "typebare"
+  ],
+  "frequency": "yr",
+  "long_name": "Bare Soil Percentage Area Coverage",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "baresoilFrac",
+  "positive": "",
+  "standard_name": "area_fraction",
+  "units": "%",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

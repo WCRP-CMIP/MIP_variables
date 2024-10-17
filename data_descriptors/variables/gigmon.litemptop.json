@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "gigmon.litemptop.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "gigmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "gigmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "comment": "Upper boundary temperature that is used to force ice sheet models. It is the temperature at the base of the snowpack models, and does not vary with seasons. Report surface temperature of ice sheet where snow thickness is zero",
+  "dimensions": [
+    "xgre",
+    "ygre",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Temperature at Top of Ice Sheet Model",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "litemptop",
+  "positive": "",
+  "standard_name": "temperature_at_top_of_ice_sheet_model",
+  "units": "K",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apday.aod550volso4.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean",
+  "comment": "Aerosol optical depth at 550nm due to stratospheric volcanic aerosols",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "lambda550nm"
+  ],
+  "frequency": "day",
+  "long_name": "Aerosol Optical Depth at 550nm Due to Stratospheric Volcanic Aerosols",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "aod550volso4",
+  "positive": "",
+  "standard_name": "stratosphere_optical_thickness_due_to_volcanic_ambient_aerosol_particles",
+  "units": "1e-09",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

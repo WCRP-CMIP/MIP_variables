@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "gigmon.litempbotfl.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "gigmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "gigmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacellg",
+  "cell_methods": "area: time: mean where floating_ice_shelf (comment: mask=sftflf)",
+  "comment": "Basal temperature that is used to force the ice sheet models, it is the temperature AT ice shelf-ocean interface.  Cell_methods: area: mean where floating_ice_shelf",
+  "dimensions": [
+    "xgre",
+    "ygre",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Basal Temperature of Floating Ice Shelf",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "litempbotfl",
+  "positive": "",
+  "standard_name": "land_ice_basal_temperature",
+  "units": "K",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

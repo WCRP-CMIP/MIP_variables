@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpmon.pasturefracc3.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpmon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land over all_area_types time: mean",
+  "comment": "Percentage of entire grid cell covered by C3 pasture",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "typec3pastures"
+  ],
+  "frequency": "mon",
+  "long_name": "C3 Pasture Area Percentage",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "pastureFracC3",
+  "positive": "",
+  "standard_name": "area_fraction",
+  "units": "%",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

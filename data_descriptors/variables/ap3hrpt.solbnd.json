@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap3hrpt.solbnd.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap3hrpt.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap3hrpt.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "time: point",
+  "comment": "Solar irradiance at a horizontal surface at top of atmosphere.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "spectband",
+    "time1"
+  ],
+  "frequency": "3hrPt",
+  "long_name": "TOA Solar Irradiance for Each Band",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "solbnd",
+  "positive": "",
+  "standard_name": "toa_incoming_shortwave_flux",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

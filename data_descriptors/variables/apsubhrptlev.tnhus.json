@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apsubhrptlev.tnhus.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apsubhrptlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apsubhrptlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "Tendency of Specific Humidity",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time1"
+  ],
+  "frequency": "subhrPt",
+  "long_name": "Tendency of Specific Humidity",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tnhus",
+  "positive": "",
+  "standard_name": "tendency_of_specific_humidity",
+  "units": "s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

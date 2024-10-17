@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap6hrpt.lwsffluxaero.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap6hrpt.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap6hrpt.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "downwelling longwave  flux  due to volcanic aerosols at the surface to be diagnosed through double radiation call",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1"
+  ],
+  "frequency": "6hrPt",
+  "long_name": "Longwave Flux Due to Volcanic Aerosols at the Surface",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "lwsffluxaero",
+  "positive": "",
+  "standard_name": "surface_downwelling_longwave_flux_in_air_due_to_volcanic_ambient_aerosol_particles",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

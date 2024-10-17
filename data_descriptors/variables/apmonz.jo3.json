@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmonz.jo3.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "Sum of photolysis rates o3 -> o1d+o2 and o3 -> o+o2",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Photolysis Rate of Ozone (O3)",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "jo3",
+  "positive": "",
+  "standard_name": "photolysis_rate_of_ozone",
+  "units": "s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "limon.rsdsis.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "limon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "limon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "comment": "Surface solar irradiance for UV calculations",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Ice Sheet Surface Downwelling Shortwave Radiation",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "rsdsIs",
+  "positive": "down",
+  "standard_name": "surface_downwelling_shortwave_flux_in_air",
+  "units": "W m-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

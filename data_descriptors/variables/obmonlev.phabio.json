@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obmonlev.phabio.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "negative log10 of hydrogen ion concentration with the concentration expressed as mol H kg-1 (abiotic component)..",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Abiotic pH",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "phabio",
+  "positive": "",
+  "standard_name": "sea_water_ph_abiotic_analogue_reported_on_total_scale",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opdec.thetaoga.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opdec.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opdec.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Diagnostic should be contributed even for models using conservative temperature as prognostic field",
+  "dimensions": [
+    "time"
+  ],
+  "frequency": "dec",
+  "long_name": "Global Average Sea Water Potential Temperature",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "thetaoga",
+  "positive": "",
+  "standard_name": "sea_water_potential_temperature",
+  "units": "degC",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

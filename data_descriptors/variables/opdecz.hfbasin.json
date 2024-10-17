@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opdecz.hfbasin.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opdecz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opdecz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+  "comment": "Contains contributions from all physical processes affecting the northward heat transport, including resolved advection, parameterized advection, lateral diffusion, etc. Diagnosed here as a function of latitude and basin.   Use Celsius for temperature scale.",
+  "dimensions": [
+    "latitude",
+    "basin",
+    "time"
+  ],
+  "frequency": "dec",
+  "long_name": "Northward Ocean Heat Transport",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "hfbasin",
+  "positive": "",
+  "standard_name": "northward_ocean_heat_transport",
+  "units": "W",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

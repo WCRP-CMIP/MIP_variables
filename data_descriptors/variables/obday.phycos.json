@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obday.phycos.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obday.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obday.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "sum of phytoplankton organic carbon component concentrations at the sea surface",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Sea Surface Phytoplankton Carbon Concentration",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "phycos",
+  "positive": "",
+  "standard_name": "mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water",
+  "units": "mol m-3",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

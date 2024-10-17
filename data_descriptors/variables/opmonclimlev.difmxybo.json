@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmonclimlev.difmxybo.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmonclimlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmonclimlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean time: mean within years time: mean over years",
+  "comment": "Lateral biharmonic viscosity applied to the momentum equations.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time2"
+  ],
+  "frequency": "monC",
+  "long_name": "Ocean Momentum XY Biharmonic Diffusivity",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "difmxybo",
+  "positive": "",
+  "standard_name": "ocean_momentum_xy_biharmonic_diffusivity",
+  "units": "m4 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

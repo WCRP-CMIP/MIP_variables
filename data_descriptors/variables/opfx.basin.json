@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opfx.basin.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opfx.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opfx.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean",
+  "comment": "A variable with the standard name of region contains strings which indicate geographical regions. These strings must be chosen from the standard region list.",
+  "dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "flag_meanings": "global_land southern_ocean atlantic_ocean pacific_ocean arctic_ocean indian_ocean mediterranean_sea black_sea hudson_bay baltic_sea red_sea",
+  "flag_values": "0 1 2 3 4 5 6 7 8 9 10",
+  "frequency": "fx",
+  "long_name": "Region Selection Index",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "basin",
+  "positive": "",
+  "standard_name": "region",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "integer"
+}

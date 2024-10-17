@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opmonclim.diftrxybo2d.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opmonclim.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opmonclim.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello",
+  "cell_methods": "area: mean time: mean within years time: mean over years",
+  "comment": "Diffusivity is also sometimes known as the coefficient of diffusion. Diffusion occurs as a result of a gradient in the spatial distribution of mass concentration, temperature or momentum.  The diffusivity may be very different in the vertical and horizontal directions. 'xy diffusivity' means the lateral along_coordinate component of diffusivity due to motion which is not resolved on the grid scale of the model.  xy diffusivities are used in some ocean models to counteract the numerical instabilities inherent in certain implementations of rotated neutral diffusion. 'biharmonic diffusivity' means diffusivity for use with a biharmonic diffusion operator.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time2"
+  ],
+  "frequency": "monC",
+  "long_name": "Ocean Tracer XY Biharmonic Diffusivity",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "diftrxybo2d",
+  "positive": "",
+  "standard_name": "ocean_tracer_xy_biharmonic_diffusivity",
+  "units": "m4 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

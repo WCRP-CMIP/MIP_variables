@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap3hrptlev.reffclis.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap3hrptlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap3hrptlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time1"
+  ],
+  "frequency": "3hrPt",
+  "long_name": "Hydrometeor Effective Radius of Stratiform Cloud Ice",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "reffclis",
+  "positive": "",
+  "standard_name": "effective_radius_of_stratiform_cloud_ice_particles",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

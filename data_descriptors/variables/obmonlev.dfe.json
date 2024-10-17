@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "obmonlev.dfe.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "obmonlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "obmonlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Dissolved iron in sea water,  including both Fe2+ and Fe3+ ions (but not particulate detrital iron)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Dissolved Iron Concentration",
+  "modeling_realm": [
+    "ocnBgchem"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "dfe",
+  "positive": "",
+  "standard_name": "mole_concentration_of_dissolved_iron_in_sea_water",
+  "units": "mol m-3",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

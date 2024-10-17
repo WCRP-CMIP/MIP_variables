@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aemonz.meanage.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aemonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aemonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "The mean age of air is defined as the mean time that a stratospheric air mass has been out of contact with the well-mixed troposphere.",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Mean Age of Stratospheric Air",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "meanage",
+  "positive": "",
+  "standard_name": "age_of_stratospheric_air",
+  "units": "yr",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

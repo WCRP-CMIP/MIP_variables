@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apdayz.psitem.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apdayz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apdayz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "Residual mass streamfunction, computed from vstar and integrated from the top of the atmosphere (on the native model grid). Reference: Andrews et al (1987): Middle Atmospheric Dynamics. Academic Press.",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Transformed Eulerian Mean Mass Streamfunction",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "psitem",
+  "positive": "",
+  "standard_name": "atmosphere_transformed_eulerian_mean_meridional_overturning_mass_streamfunction",
+  "units": "kg s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

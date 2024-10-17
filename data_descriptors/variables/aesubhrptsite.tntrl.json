@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "aesubhrptsite.tntrl.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "aesubhrptsite.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "aesubhrptsite.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: point time: point",
+  "comment": "Tendency of air temperature due to longwave radiative heating",
+  "dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "frequency": "subhrPt",
+  "long_name": "Tendency of Air Temperature Due to Longwave Radiative Heating",
+  "modeling_realm": [
+    "aerosol"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tntrl",
+  "positive": "",
+  "standard_name": "tendency_of_air_temperature_due_to_longwave_heating",
+  "units": "K s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

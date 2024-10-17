@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "limon.tasis.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "limon.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "limon.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "comment": "near-surface (usually, 2 meter) air temperature",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Ice Sheet Near-Surface Air Temperature",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tasIs",
+  "positive": "",
+  "standard_name": "air_temperature",
+  "units": "K",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

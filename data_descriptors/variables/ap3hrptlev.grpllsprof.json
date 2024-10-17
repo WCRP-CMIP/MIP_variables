@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap3hrptlev.grpllsprof.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap3hrptlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap3hrptlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics. Stratiform precipitation, whether liquid or frozen, is precipitation that formed in stratiform cloud. Graupel consists of heavily rimed snow particles, often called snow pellets; often indistinguishable from very small soft hail except when the size convention that hail must have a diameter greater than 5 mm is adopted. Reference: American Meteorological Society Glossary http://glossary.ametsoc.org/wiki/Graupel. There are also separate standard names for hail. Standard names for 'graupel_and_hail' should be used to describe data produced by models that do not distinguish between hail and graupel.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevhalf",
+    "time1"
+  ],
+  "frequency": "3hrPt",
+  "long_name": "Stratiform Graupel Flux",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "grpllsprof",
+  "positive": "",
+  "standard_name": "stratiform_graupel_flux",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

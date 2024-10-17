@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "lpfx.slthick.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "lpfx.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "lpfx.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean where land",
+  "comment": "'Thickness' means the vertical extent of a layer. 'Cell' refers to a model grid cell.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "sdepth"
+  ],
+  "frequency": "fx",
+  "long_name": "Thickness of Soil Layers",
+  "modeling_realm": [
+    "land"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "slthick",
+  "positive": "",
+  "standard_name": "cell_thickness",
+  "units": "m",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

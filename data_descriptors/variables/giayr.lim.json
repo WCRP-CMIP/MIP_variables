@@ -1,0 +1,38 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "giayr.lim.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "giayr.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "giayr.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "area: sum where ice_sheet time: mean",
+  "comment": "The ice sheet mass is computed as the volume times density",
+  "dimensions": [
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Ice Sheet Mass",
+  "modeling_realm": [
+    "landIce"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "lim",
+  "positive": "",
+  "standard_name": "land_ice_mass",
+  "units": "kg",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

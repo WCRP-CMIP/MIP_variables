@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apdayz.utendepfd.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apdayz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apdayz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "Tendency of the zonal mean zonal wind due to the divergence of the Eliassen-Palm flux.",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "frequency": "day",
+  "long_name": "Tendency of Eastward Wind Due to Eliassen-Palm Flux Divergence",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "utendepfd",
+  "positive": "",
+  "standard_name": "tendency_of_eastward_wind_due_to_eliassen_palm_flux_divergence",
+  "units": "m s-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

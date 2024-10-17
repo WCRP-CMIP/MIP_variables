@@ -1,0 +1,40 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "apmonz.vtendnogw.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "apmonz.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "apmonz.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "",
+  "cell_methods": "longitude: mean time: mean",
+  "comment": "Tendency of the northward wind by parameterized nonorographic gravity waves.  (Note that CF name tables only have a general northward tendency for all gravity waves, and we need it separated by type.)",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "frequency": "mon",
+  "long_name": "Northward Acceleration Due to Non-Orographic Gravity Wave Drag",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "vtendnogw",
+  "positive": "",
+  "standard_name": "tendency_of_northward_wind_due_to_nonorographic_gravity_wave_drag",
+  "units": "m s-2",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

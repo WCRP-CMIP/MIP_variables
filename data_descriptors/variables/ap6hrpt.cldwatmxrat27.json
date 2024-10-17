@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap6hrpt.cldwatmxrat27.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap6hrpt.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap6hrpt.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "Cloud water mixing ratio",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "plev27",
+    "time1"
+  ],
+  "frequency": "6hrPt",
+  "long_name": "Cloud Water Mixing Ratio",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "cldwatmxrat27",
+  "positive": "",
+  "standard_name": "cloud_liquid_water_mixing_ratio",
+  "units": "1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

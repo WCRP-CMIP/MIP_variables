@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "ap1hrpt.tntr27.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "ap1hrpt.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "ap1hrpt.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacella",
+  "cell_methods": "area: mean time: point",
+  "comment": "Tendency of Air Temperature due to Radiative Heating",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "plev27",
+    "time1"
+  ],
+  "frequency": "1hrPt",
+  "long_name": "Tendency of Air Temperature Due to Radiative Heating",
+  "modeling_realm": [
+    "atmos"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "tntr27",
+  "positive": "",
+  "standard_name": "tendency_of_air_temperature_due_to_radiative_heating",
+  "units": "K s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

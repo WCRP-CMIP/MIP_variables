@@ -1,0 +1,41 @@
+{
+  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "id": "opyrlev.osalttend.json",
+  "type": "mip-variable",
+  "mip-tables": [
+    {
+      "id": "opyrlev.json",
+      "mip-era": "cmip6"
+    },
+    {
+      "id": "opyrlev.json",
+      "mip-era": "cmip6plus"
+    }
+  ],
+  "themes": [
+    "TBC"
+  ],
+  "cell_measures": "area: areacello volume: volcello",
+  "cell_methods": "area: mean where sea time: mean",
+  "comment": "Tendency of salt content for a grid cell from all processes.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "frequency": "yr",
+  "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content",
+  "modeling_realm": [
+    "ocean"
+  ],
+  "ok_max_mean_abs": "",
+  "ok_min_mean_abs": "",
+  "out_name": "osalttend",
+  "positive": "",
+  "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content",
+  "units": "kg m-2 s-1",
+  "valid_max": "",
+  "valid_min": "",
+  "dtype": "real"
+}

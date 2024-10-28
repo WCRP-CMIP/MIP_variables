@@ -1,0 +1,79 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "MIP Table Schema",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "string",
+            "description": "Context URL for the schema"
+        },
+        "id": {
+            "type": "string",
+            "description": "Unique identifier for the MIP table"
+        },
+        "type": {
+            "type": "string",
+            "description": "Type of the object"
+        },
+        "Conventions": {
+            "type": "string",
+            "description": "Conventions used in the MIP table"
+        },
+        "approx_interval": {
+            "type": "number",
+            "description": "Approximate interval value"
+        },
+        "checksum": {
+            "type": "string",
+            "description": "Checksum for validation"
+        },
+        "cmor_version": {
+            "type": "string",
+            "description": "Version of the CMOR used"
+        },
+        "data_specs_version": {
+            "type": "string",
+            "description": "Version of the data specifications"
+        },
+        "generic_levels": {
+            "type": "string",
+            "description": "Generic levels, if applicable"
+        },
+        "int_missing_value": {
+            "type": "string",
+            "description": "Integer missing value placeholder"
+        },
+        "missing_value": {
+            "type": "string",
+            "description": "General missing value placeholder"
+        },
+        "product": {
+            "type": "string",
+            "description": "Type of product, e.g., model-output"
+        },
+        "table_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date of the table creation or update"
+        },
+        "table_id": {
+            "type": "string",
+            "description": "Identifier for the table"
+        }
+    },
+    "required": [
+        "@context",
+        "id",
+        "type",
+        "Conventions",
+        "approx_interval",
+        "cmor_version",
+        "data_specs_version",
+        "int_missing_value",
+        "missing_value",
+        "product",
+        "table_date",
+        "table_id"
+    ]
+}
+

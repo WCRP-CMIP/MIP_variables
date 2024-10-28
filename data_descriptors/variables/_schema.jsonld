@@ -1,0 +1,212 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "MIP Variables Schema",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Unique identifier",
+            "links": []
+        },
+        "mip-tables": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "links": []
+                    },
+                    "mip-era": {
+                        "type": "string",
+                        "links": []
+                    }
+                },
+                "required": [
+                    "id",
+                    "mip-era"
+                ]
+            },
+            "description": "List of MIP tables",
+            "links": []
+        },
+        "type": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Type of variable",
+            "links": []
+        },
+        "cell_measures": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Cell measurement information",
+            "links": []
+        },
+        "cell_methods": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Cell methods applied",
+            "links": []
+        },
+        "comment": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Additional comments",
+            "links": []
+        },
+        "dimensions": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "links": []
+            },
+            "description": "List of dimensions",
+            "links": []
+        },
+        "dtype": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Data type",
+            "links": []
+        },
+        "frequency": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Update frequency",
+            "links": []
+        },
+        "long_name": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Full name of the variable",
+            "links": []
+        },
+        "modeling_realm": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "description": "Modeling realm",
+            "links": []
+        },
+        "ok_max_mean_abs": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "string",
+                    "maxLength": 0
+                }
+            ],
+            "description": "Max allowable mean absolute value",
+            "links": []
+        },
+        "ok_min_mean_abs": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "string",
+                    "maxLength": 0
+                }
+            ],
+            "description": "Min allowable mean absolute value",
+            "links": []
+        },
+        "out_name": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Output variable name",
+            "links": []
+        },
+        "positive": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Sign convention",
+            "links": []
+        },
+        "standard_name": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Standard variable name",
+            "links": []
+        },
+        "themes": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "description": "Themes for categorization",
+            "links": []
+        },
+        "units": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Measurement units",
+            "links": []
+        },
+        "valid_max": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "string",
+                    "maxLength": 0
+                }
+            ],
+            "description": "Max valid value",
+            "links": []
+        },
+        "valid_min": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "string",
+                    "maxLength": 0
+                }
+            ],
+            "description": "Min valid value",
+            "links": []
+        }
+    },
+    "required": [
+        "id",
+        "mip-tables",
+        "type",
+        "dimensions",
+        "dtype",
+        "frequency",
+        "long_name",
+        "modeling_realm",
+        "out_name",
+        "standard_name",
+        "units"
+    ]
+}

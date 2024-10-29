@@ -23,9 +23,18 @@
             console.warn(url)
             try {
                 // Process URL components
+
+
+                
                 const urlSegments = url.split('/').filter(Boolean);
                 const [origin, item] = urlSegments.slice(-2);
                 const baseURL = url.substring(0, url.lastIndexOf('/') + 1);
+
+                if (baseURL === window.location.origin or origin === 'data-descriptor'){
+                    origin = item
+                
+                }
+                
                 const jsonURL = `${baseURL}${item}.json`;
                 const schemaURL = `${baseURL}/_schema`;
                 console.log(baseURL)
@@ -67,7 +76,7 @@
                     
                     // document.getElementById('content').innerHTML = 'blank'
 
-                    document.getElementById('title').innerHTML = `<a href=${baseURL}>${origin}</a> : ${item}`;
+                    document.getElementById('title').innerHTML = `<a href=${baseURL}>${origin}</a>`;
 
                     
                     contentHTML += `<h2>Parent</h2><p>${data.prefix} : <a href=${baseURL}>${origin}</a></p>`

@@ -9,7 +9,7 @@
         body { padding:10px; }
         h2 { font-size:0.8rem; margin-left: 10px }
         h3 { font-size:0.6rem; margin-left: 15px }
-        p { margin-left: 20px }
+        p { margin-left: 30px }
     </style>
 </head>
 <body>
@@ -63,9 +63,9 @@
                 // Build display HTML
                 let contentHTML = ''
 
-                contentHTML += `<h2>Parent</h2><p><a href=${baseURL}>${origin}</a></p>`
+                contentHTML += `<h2>Parent</h2><p><a href=${baseURL}>${data.prefix} > ${origin}</a></p>`
 
-                const github = `${data.repo}/data_descriptors/${origin}`
+                const github = `${data.repo}/tree/main/data_descriptors/${origin}`
                 contentHTML += `<h2>GithubURL</h2><p><a href=${github}>${data.repo.split('github.com/')[1]}</a></p>`
                     
                     
@@ -74,7 +74,7 @@
                 // Display types with schema.org links if available
                 if (itemData.types) {
                     contentHTML += `<h3>Types</h3><ul>`;
-                    itemData.types.forEach(type => {
+                    itemData.type.forEach(type => {
                         contentHTML += `<li><a href="https://schema.org/${type}" target="_blank">${type}</a></li>`;
                     });
                     contentHTML += `</ul>`;

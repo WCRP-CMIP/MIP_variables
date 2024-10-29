@@ -100,9 +100,9 @@
 
                     
                     // throw new Error("Item not found in schema data.");
-                    continue
+                    
                 }
-
+                else {
                 
 
                 contentHTML += `<h2>Parent</h2><p>${data.prefix} : <a href=${baseURL}>${origin}</a></p>`
@@ -131,6 +131,7 @@
                     contentHTML += `</ul>`;
                 }
 
+            }
                 // Display the final content
                 document.getElementById('content').innerHTML = contentHTML;
             } catch (error) {

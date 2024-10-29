@@ -35,6 +35,8 @@
 
                 // Attempt to fetch JSON data for the current item
 
+
+                let response = await fetch(jsonURL);
                 if (!url.endsWith('.json')){
                 let response = await fetch(jsonURL);
                 if (response.ok) {
@@ -57,6 +59,11 @@
                 if (!itemData) {
 
 
+                
+                    let response = await fetch(`${baseURL}_context`);
+                    const context = await response.json();
+                    
+                    
                     // document.getElementById('content').innerHTML = 'blank'
 
                     document.getElementById('title').innerHTML = `<a href=${baseURL}>${origin}</a> : ${item}`;
@@ -76,6 +83,11 @@
                     contentHTML += `</ul>`;
                 }
 
+
+                if (context) {
+                        contentHTML += `<h3>Context </h3> <code> ${context} </code> `;
+                        
+                }
     
 
                     

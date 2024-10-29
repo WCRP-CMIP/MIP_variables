@@ -7,6 +7,7 @@
     <link rel='stylesheet' href='https://bootswatch.com/5/sketchy/bootstrap.css'>
     <style>
         body { padding:10px; }
+        h2 { font-size:0.8rem; }
     </style>
 </head>
 <body>
@@ -63,7 +64,7 @@
                 contentHTML += `<h2>Parent</h2><p><a href=${baseURL}>${origin}</a></p>`
 
                 const github = `${itemData.repo}/data_descriptors/${origin}`
-                contentHTML += `<h2>GithubURL</h2><p><a href=${github}>${repo.split('github.com')[1]}</a></p>`
+                contentHTML += `<h2>GithubURL</h2><p><a href=${github}>${itemData.repo.split('github.com/')[1]}</a></p>`
                     
                     
                 contentHTML += `<h2>Description</h2><p>${itemData.description || "No description available."}</p>`;

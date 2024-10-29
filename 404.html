@@ -41,6 +41,8 @@
                 }
 
 
+
+                console.log(jsonURL);
                 // trying to get schema.
                 let response = await fetch(jsonURL);
                 // Parse JSON data
@@ -82,6 +84,7 @@
             } catch (error) {
                 // Display 404 page if JSON not found or item does not exist
                 document.getElementById('content').innerHTML = `<p style="color: red;">404 Not Found: ${error.message}</p>`;
+                console.error(error)
             }
         }
 

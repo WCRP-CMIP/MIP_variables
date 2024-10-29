@@ -57,8 +57,29 @@
                 if (!itemData) {
 
 
-                    document.getElementById('content').innerHTML = 'blank'
-                    throw new Error("Item not found in schema data.");
+                    // document.getElementById('content').innerHTML = 'blank'
+
+                    document.getElementById('title').innerHTML = `<a href=${baseURL}>${origin}</a> : ${item}`;
+
+                    
+                    contentHTML += `<h2>Parent</h2><p>${data.prefix} : <a href=${baseURL}>${origin}</a></p>`
+                    
+                    const github = `${data.repo}/tree/main/data_descriptors/${origin}`
+                    contentHTML += `<h2>GithubURL</h2><p><a href=${github}>${data.repo.split('github.com/')[1]}</a></p>`
+
+
+                     if (data.references) {
+                        contentHTML += `<h3>Linked To</h3> <ul>`;
+                        data.references.forEach(link => {
+                            contentHTML += `<li><a href="${link}" target="_blank">${link}</a></li>`;
+                        });
+                    contentHTML += `</ul>`;
+                }
+
+    
+
+                    
+                    // throw new Error("Item not found in schema data.");
                 }
 
                 // Build display HTML

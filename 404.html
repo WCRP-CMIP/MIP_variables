@@ -58,7 +58,15 @@
                 }
 
                 // Build display HTML
-                let contentHTML = `<h2>Description</h2><p>${itemData.description || "No description available."}</p>`;
+                let contentHTML = ''
+
+                contentHTML += `<h2>Parent</h2><p><a href=${baseURL}>${origin}</a></p>`
+
+                const github = `${itemData.repo}/data_descriptors/${origin}`
+                contentHTML += `<h2>GithubURL</h2><p><a href=${github}>${repo.split('github.com')[1]}</a></p>`
+                    
+                    
+                contentHTML += `<h2>Description</h2><p>${itemData.description || "No description available."}</p>`;
                 
                 // Display types with schema.org links if available
                 if (itemData.types) {

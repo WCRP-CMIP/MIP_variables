@@ -56,14 +56,15 @@
                 
                 if (!itemData) {
 
-                    
+
+                    document.getElementById('content').innerHTML = 'blank'
                     throw new Error("Item not found in schema data.");
                 }
 
                 // Build display HTML
                 let contentHTML = ''
 
-                contentHTML += `<h2>Parent</h2><p><a href=${baseURL}>${data.prefix} > ${origin}</a></p>`
+                contentHTML += `<h2>Parent</h2><p>${baseURL}:<a href=${data.prefix} > ${origin}</a></p>`
 
                 const github = `${data.repo}/tree/main/data_descriptors/${origin}`
                 contentHTML += `<h2>GithubURL</h2><p><a href=${github}>${data.repo.split('github.com/')[1]}</a></p>`

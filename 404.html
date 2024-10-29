@@ -1,14 +1,49 @@
-<html>
-  <head></head>
-  <body>
-    ::[REPLACE WITH CUSTOM ERROR TOKEN NAME]::
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load JSON Key Display</title>
+</head>
+<body>
+    <h1>Data from JSON Key: <code>cell_measures</code></h1>
+    <div id="content">
+        <!-- JSON data will be displayed here -->
+    </div>
+    <script>
+        async function fetchAndDisplayData(url) {
+            try {
+                // Remove the last part of the URL (after the last '/')
+                const baseURL = url.substring(0, url.lastIndexOf('/') + 1);
+                
+                // Define the URL to fetch the JSON file (with '_schema' as the filename)
+                const jsonURL = `${baseURL}_schema`;
 
-<script> alert(window.location.href) </script>
-  
+                // Fetch the JSON data
+                const response = await fetch(jsonURL);
+                if (!response.ok) {
+                    throw new Error(`Error fetching JSON file: ${response.statusText}`);
+                }
+
+                // Parse JSON data
+                const data = await response.json();
+
+                // Locate the "cell_measures" key
+                const cellMeasuresData = data.cell_measures;
+                if (!cellMeasuresData) {
+                    throw new Error(`Key "cell_measures" not found in JSON data`);
+                }
+
+                // Display the contents in the HTML
+                document.getElementById('content').innerHTML = `<pre>${JSON.stringify(cellMeasuresData, null, 2)}</pre>`;
+            } catch (error) {
+                document.getElementById('content').innerHTML = `<p style="color: red;">${error.message}</p>`;
+            }
+        }
+
+        // Example usage with URL input
+        const exampleURL = "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/cell_measures";
+        fetchAndDisplayData(exampleURL);
+    </script>
+</body>
 </html>
-
-
-
-
-

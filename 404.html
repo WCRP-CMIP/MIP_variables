@@ -33,7 +33,7 @@
                 console.log(data)
 
                 // Locate the "cell_measures" key
-                const cellMeasuresData = data.cell_measures;
+                const cellMeasuresData = data.properties.cell_measures;
                 if (!cellMeasuresData) {
                     throw new Error(`Key "cell_measures" not found in JSON data`);
                 }

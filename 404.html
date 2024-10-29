@@ -30,6 +30,8 @@
                 // Parse JSON data
                 const data = await response.json();
 
+                console.log(data)
+
                 // Locate the "cell_measures" key
                 const cellMeasuresData = data.cell_measures;
                 if (!cellMeasuresData) {

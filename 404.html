@@ -34,8 +34,6 @@
                 document.getElementById('title').innerHTML = `<a href=${baseURL}>${origin}</a> : ${item}`;
 
                 // Attempt to fetch JSON data for the current item
-
-
                 let response = await fetch(jsonURL);
                 if (!url.endsWith('.json')){
                 let response = await fetch(jsonURL);
@@ -47,6 +45,9 @@
                 }
 
 
+                // Build display HTML
+                let contentHTML = ''
+                
                 // trying to get schema.
                 let response = await fetch(schemaURL);
                 // Parse JSON data
@@ -94,8 +95,7 @@
                     // throw new Error("Item not found in schema data.");
                 }
 
-                // Build display HTML
-                let contentHTML = ''
+                
 
                 contentHTML += `<h2>Parent</h2><p>${data.prefix} : <a href=${baseURL}>${origin}</a></p>`
 

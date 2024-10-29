@@ -58,7 +58,7 @@
                 let contentHTML = ''
                 
                 // trying to get schema.
-                let response = await fetch(schemaURL);
+                response = await fetch(schemaURL);
                 // Parse JSON data
                 const data = await response.json();
 
@@ -68,7 +68,7 @@
                 
                 if (!itemData) {
 
-                    let response = await fetch(`${baseURL}_context`);
+                    response = await fetch(`${baseURL}_context`);
                     const context = await response.json();
                     
 

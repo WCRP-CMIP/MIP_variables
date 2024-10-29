@@ -31,8 +31,8 @@
                 const baseURL = url.substring(0, url.lastIndexOf('/') + 1);
 
                 if (baseURL === window.location.origin or origin === 'data-descriptor'){
+                    console.log(origin,item)
                     origin = item
-                
                 }
                 
                 const jsonURL = `${baseURL}${item}.json`;
@@ -68,16 +68,14 @@
                 
                 if (!itemData) {
 
-
-                
                     let response = await fetch(`${baseURL}_context`);
                     const context = await response.json();
                     
-                    
+
+                    console.log(context)
                     // document.getElementById('content').innerHTML = 'blank'
 
                     document.getElementById('title').innerHTML = `<a href=${baseURL}>${origin}</a>`;
-
                     
                     contentHTML += `<h2>Parent</h2><p>${data.prefix} : <a href=${baseURL}>${origin}</a></p>`
                     

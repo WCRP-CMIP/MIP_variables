@@ -19,6 +19,8 @@
                 // Define the URL to fetch the JSON file (with '_schema' as the filename)
                 const jsonURL = `${baseURL}_schema`;
 
+                console.log(baseURL,jsonURL)
+
                 // Fetch the JSON data
                 const response = await fetch(jsonURL);
                 if (!response.ok) {

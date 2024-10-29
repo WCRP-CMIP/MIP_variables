@@ -42,10 +42,8 @@
                 }
 
 
-
-                console.log(jsonURL);
                 // trying to get schema.
-                let response = await fetch(jsonURL);
+                let response = await fetch(schemaURL);
                 // Parse JSON data
                 const data = await response.json();
 

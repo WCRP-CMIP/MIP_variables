@@ -6,59 +6,67 @@
     <title>Load JSON Key Display</title>
     <link rel='stylesheet' href='https://bootswatch.com/5/sketchy/bootstrap.css'>
     <style>
-        body:{ padding:10px }
+        body { padding:10px; }
     </style>
 </head>
 <body>
-    <h1 id='title'>cell_measures</h1>
+    <h1 id='title'>Data Descriptor</h1>
     <div>
-        
-    <code id="content">
-    </code>
+        <code id="content"></code>
     </div>
-        <!-- JSON data will be displayed here -->
-    </div>
+
     <script>
         async function fetchAndDisplayData(url) {
             try {
-                // Remove the last part of the URL (after the last '/')
-
-
+                // Process URL components
                 const urlSegments = url.split('/').filter(Boolean);
                 const [origin, item] = urlSegments.slice(-2);
                 const baseURL = url.substring(0, url.lastIndexOf('/') + 1);
-        
-                // title
-                document.getElementById('title').innerHTML = `<a href=${baseURL}>${origin}</a> : <code> ${item}`
-                
-                
-                
-                // Define the URL to fetch the JSON file (with '_schema' as the filename)
-                const jsonURL = `${baseURL}_schema`;
+                const jsonURL = `${baseURL}${item}.json`;
 
-                console.log(baseURL,jsonURL)
+                // Set title with link back to base URL
+                document.getElementById('title').innerHTML = `<a href=${baseURL}>${origin}</a> : ${item}`;
 
-                // Fetch the JSON data
+                // Attempt to fetch JSON data for the current item
                 const response = await fetch(jsonURL);
                 if (!response.ok) {
-                    throw new Error(`Error fetching JSON file: ${response.statusText}`);
+                    throw new Error(`JSON file not found. Displaying default view.`);
                 }
-
+                
                 // Parse JSON data
                 const data = await response.json();
-
-                console.log(data)
-
-                // Locate the "cell_measures" key
-                const cellMeasuresData = data.properties[item];
-                if (!cellMeasuresData) {
-                    throw new Error(`Key "cell_measures" not found in JSON data`);
+                const itemData = data[item];
+                
+                if (!itemData) {
+                    throw new Error("Item not found in schema data.");
                 }
 
-                // Display the contents in the HTML
-                document.getElementById('content').innerHTML = `<pre>${JSON.stringify(cellMeasuresData, null, 2)}</pre>`;
+                // Build display HTML
+                let contentHTML = `<h2>Description</h2><p>${itemData.description || "No description available."}</p>`;
+                
+                // Display types with schema.org links if available
+                if (itemData.types) {
+                    contentHTML += `<h3>Types</h3><ul>`;
+                    itemData.types.forEach(type => {
+                        contentHTML += `<li><a href="https://schema.org/${type}" target="_blank">${type}</a></li>`;
+                    });
+                    contentHTML += `</ul>`;
+                }
+
+                // Display links if available
+                if (itemData.links) {
+                    contentHTML += `<h3>Related Links</h3><ul>`;
+                    itemData.links.forEach(link => {
+                        contentHTML += `<li><a href="${link.url}" target="_blank">${link.name}</a></li>`;
+                    });
+                    contentHTML += `</ul>`;
+                }
+
+                // Display the final content
+                document.getElementById('content').innerHTML = contentHTML;
             } catch (error) {
-                document.getElementById('content').innerHTML = `<p style="color: red;">${error.message}</p>`;
+                // Display 404 page if JSON not found or item does not exist
+                document.getElementById('content').innerHTML = `<p style="color: red;">404 Not Found: ${error.message}</p>`;
             }
         }
 

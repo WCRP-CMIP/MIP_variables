@@ -8,7 +8,7 @@
     <style>
         body { padding:10px; }
         h2 { font-size:0.8rem; margin-left: 10px }
-        h3 { font-size:0.6rem; margin-left: 15px }
+        h3 { font-size:0.6rem; margin-left: 15px ; color:gray }
         p { margin-left: 30px }
     </style>
 </head>
@@ -64,7 +64,7 @@
                 // Build display HTML
                 let contentHTML = ''
 
-                contentHTML += `<h2>Parent</h2><p>${data.prefix} :<a href=${baseURL}> ${origin}</a></p>`
+                contentHTML += `<h2>Parent</h2><p>${data.prefix} : <a href=${baseURL}>${origin}</a></p>`
 
                 const github = `${data.repo}/tree/main/data_descriptors/${origin}`
                 contentHTML += `<h2>GithubURL</h2><p><a href=${github}>${data.repo.split('github.com/')[1]}</a></p>`
@@ -83,7 +83,7 @@
 
                 // Display links if available
                 if (itemData.links) {
-                    contentHTML += `<h3>Related Links</h3><ul>`;
+                    contentHTML += `<h3>Related Links</h3> <ul>`;
                     itemData.links.forEach(link => {
                         contentHTML += `<li><a href="${link.url}" target="_blank">${link.name}</a></li>`;
                     });

@@ -24,8 +24,9 @@
                 const [origin, item] = urlSegments.slice(-2);
                 const baseURL = url.substring(0, url.lastIndexOf('/') + 1);
                 const jsonURL = `${baseURL}${item}.json`;
-                const schemaURL = `${baseURL}_schema`;
-
+                const schemaURL = `${baseURL}/_schema`;
+                console.log(baseURL)
+                
                 // Set title with link back to base URL
                 document.getElementById('title').innerHTML = `<a href=${baseURL}>${origin}</a> : ${item}`;
 

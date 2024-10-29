@@ -17,27 +17,42 @@
 
     <script>
         async function fetchAndDisplayData(url) {
+            console.warn(url)
             try {
                 // Process URL components
                 const urlSegments = url.split('/').filter(Boolean);
                 const [origin, item] = urlSegments.slice(-2);
                 const baseURL = url.substring(0, url.lastIndexOf('/') + 1);
                 const jsonURL = `${baseURL}${item}.json`;
+                const schemaURL = `${baseURL}_schema`;
 
                 // Set title with link back to base URL
                 document.getElementById('title').innerHTML = `<a href=${baseURL}>${origin}</a> : ${item}`;
 
                 // Attempt to fetch JSON data for the current item
-                const response = await fetch(jsonURL);
-                if (!response.ok) {
-                    throw new Error(`JSON file not found. Displaying default view.`);
+
+                if (!url.endsWith('.json')){
+                let response = await fetch(jsonURL);
+                if (response.ok) {
+                    // throw new Error(`JSON file not found. Displaying default view.`);
+                    window.location.href = jsonURL;
                 }
-                
+                console.log(`json file does not exist: ${jsonURL}`)
+                }
+
+
+                // trying to get schema.
+                let response = await fetch(jsonURL);
                 // Parse JSON data
                 const data = await response.json();
-                const itemData = data[item];
+
+                console.log(data)
+                
+                const itemData = data.properties[item];
                 
                 if (!itemData) {
+
+                    
                     throw new Error("Item not found in schema data.");
                 }
 

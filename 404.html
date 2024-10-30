@@ -29,7 +29,7 @@
 
                 
                 const urlSegments = url.split('/').filter(Boolean);
-                const [origin, item] = urlSegments.slice(-2);
+                let [origin, item] = urlSegments.slice(-2);
                 const baseURL = url.substring(0, url.lastIndexOf('/') + 1);
 
 

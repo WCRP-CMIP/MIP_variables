@@ -2,7 +2,7 @@
   "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/variables/_context",
   "id": "ap1hrpt.psl.json",
   "type": "mip-variable",
-  "mip-tables": [
+  "mip_tables": [
     {
       "id": "ap1hrpt.json",
       "mip-era": "cmip6"

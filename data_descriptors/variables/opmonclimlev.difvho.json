@@ -2,7 +2,7 @@
   "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/variables/_context",
   "id": "opmonclimlev.difvho.json",
   "type": "mip-variable",
-  "mip-tables": [
+  "mip_tables": [
     {
       "id": "opmonclimlev.json",
       "mip-era": "cmip6"

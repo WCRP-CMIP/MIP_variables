@@ -4,7 +4,7 @@
     "@vocab": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/variables/",
     "id": "@id",
     "type": "@type",
-    "mip-tables": {
+    "mip_tables": {
       "@reverse": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/variable_entry"
     }
   },

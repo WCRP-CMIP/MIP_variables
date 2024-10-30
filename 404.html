@@ -93,14 +93,13 @@
 
 
                 if (context) {
-                        let strcontext = JSON
-                            .stringify(context, null, '&ensp;&ensp;')
-                            .replaceAll(
-                                "\n&ensp;&ensp;", 
-                                "<br>&ensp;&ensp;"
-                            );
-                        contentHTML += `<h3>Context </h3> <code> ${strcontext} </code> `;
+                    
+                       let strcontext = JSON.stringify(context, null, 2)
+                            .replaceAll('\n', '<br>') // Inserts <br> tags
+                            .replaceAll('  ', '&ensp;&ensp;'); // Replaces spaces with &ensp;
                         
+                        contentHTML += `<h3>Context</h3><pre><code>${strcontext}</code></pre>`;
+                                                
                 }
     
 

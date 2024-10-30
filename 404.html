@@ -94,11 +94,11 @@
 
                 if (context) {
                         let strcontext = JSON
-                            .stringify(context, null, 4)
-                            // .replaceAll(
-                            //     "],\n\t\"", 
-                            //     "],\n\n\t\""
-                            // );
+                            .stringify(context, null, '&ensp;&ensp;')
+                            .replaceAll(
+                                "\n&ensp;&ensp;", 
+                                "<br>&ensp;&ensp;"
+                            );
                         contentHTML += `<h3>Context </h3> <code> ${strcontext} </code> `;
                         
                 }

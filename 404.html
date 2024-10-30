@@ -93,7 +93,13 @@
 
 
                 if (context) {
-                        contentHTML += `<h3>Context </h3> <code> ${context} </code> `;
+                        let strcontext = JSON
+                            .stringify(context, null, "\t")
+                            .replaceAll(
+                                "],\n\t\"", 
+                                "],\n\n\t\""
+                            );
+                        contentHTML += `<h3>Context </h3> <code> ${strcontext} </code> `;
                         
                 }
     

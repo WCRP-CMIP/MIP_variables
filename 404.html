@@ -30,7 +30,7 @@
                 const [origin, item] = urlSegments.slice(-2);
                 const baseURL = url.substring(0, url.lastIndexOf('/') + 1);
 
-                if (baseURL === window.location.origin || origin === 'data-descriptor'){
+                if (baseURL === window.location.origin || origin === 'data_descriptor'){
                     console.log(origin,item)
                     origin = item
                 }
@@ -94,7 +94,7 @@
 
                 if (context) {
                     
-                       let strcontext = JSON.stringify(context, null, 2)
+                       let strcontext = JSON.stringify(context, null,4)
                             .replaceAll('\n', '<br>') // Inserts <br> tags
                             .replaceAll('  ', '&ensp;&ensp;'); // Replaces spaces with &ensp;
                         

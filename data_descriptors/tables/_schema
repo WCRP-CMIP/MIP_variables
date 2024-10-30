@@ -3,7 +3,7 @@
     "title": "MIP Table Schema",
     "description": "This is the table class used in CMIP6 and CMIP6Plus, it contains relevant descriptive information outlining the tables.",
     "references":["www.google.com","www.wcrp.cmip.org"],
-    "repo": "https://github.com/WCRP-CMIP/CMIP6Plus_MIP_variables",
+    "repo": "https://github.com/WCRP-CMIP/MIP_variables",
     "prefix":"dr",
 
     "type": "object",

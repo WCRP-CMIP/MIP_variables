@@ -1,5 +1,5 @@
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/variables/_context",
   "id": "lpmon.wtd.json",
   "type": "mip-variable",
   "mip-tables": [

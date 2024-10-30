@@ -1,5 +1,5 @@
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "aeday.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",

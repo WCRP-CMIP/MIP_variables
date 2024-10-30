@@ -14,7 +14,7 @@ def sd(dct):
 
 # Base URL for data descriptors
 # basepath = 'http://localhost:8000/data_descriptors/'
-basepath = 'https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/'
+basepath = 'https://wcrp-cmip.github.io/MIP_variables/data_descriptors/'
 
 
 

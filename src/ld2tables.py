@@ -18,10 +18,10 @@ frame = frame = {
     "@context": {
         **data[table_index]["@context"],
         
-        "mip_participation":'https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/mip-era'# rename the optional field brought in by the mip variables. (can be deleted if requiered)
+        "mip_participation":'https://wcrp-cmip.github.io/MIP_variables/data_descriptors/variables/mip-era'# rename the optional field brought in by the mip variables. (can be deleted if requiered)
     },
-    # "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/variable_entry":{"@container":"@set"}, 
-    '@type':"https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/mip-table", # select all the tables
+    # "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/variable_entry":{"@container":"@set"}, 
+    '@type':"https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/mip-table", # select all the tables
 }
 
 # get the frame

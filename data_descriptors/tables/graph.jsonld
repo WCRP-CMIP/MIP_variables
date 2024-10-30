@@ -1,16 +1,16 @@
 {"@context": 
 {
-  "@base": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/",
-  "@vocab": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/",
+  "@base": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/",
+  "@vocab": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/",
   "id": "@id",
   "type": "@type",
   "variable_entry": {
-    "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/variables/_context"
+    "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/variables/_context"
   }
 },
 "@graph": [
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "acmon.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -26,7 +26,7 @@
   "table_id": "ACmon"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "acmonz.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -42,7 +42,7 @@
   "table_id": "ACmonZ"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ae1hr.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -58,7 +58,7 @@
   "table_id": "AE1hr"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ae3hrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -74,7 +74,7 @@
   "table_id": "AE3hrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ae3hrptlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -93,7 +93,7 @@
   "table_id": "AE3hrPtLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ae6hr.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -109,7 +109,7 @@
   "table_id": "AE6hr"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ae6hrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -125,7 +125,7 @@
   "table_id": "AE6hrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ae6hrptlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -144,7 +144,7 @@
   "table_id": "AE6hrPtLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "aeday.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -160,7 +160,7 @@
   "table_id": "AEday"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "aemon.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -176,7 +176,7 @@
   "table_id": "AEmon"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "aemonlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -195,7 +195,7 @@
   "table_id": "AEmonLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "aemonz.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -211,7 +211,7 @@
   "table_id": "AEmonZ"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "aesubhrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -227,7 +227,7 @@
   "table_id": "AEsubhrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "aesubhrptsite.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -243,7 +243,7 @@
   "table_id": "AEsubhrPtSite"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ap1hr.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -259,7 +259,7 @@
   "table_id": "AP1hr"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ap1hrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -275,7 +275,7 @@
   "table_id": "AP1hrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ap3hr.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -291,7 +291,7 @@
   "table_id": "AP3hr"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ap3hrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -307,7 +307,7 @@
   "table_id": "AP3hrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ap3hrptlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -326,7 +326,7 @@
   "table_id": "AP3hrPtLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ap6hr.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -342,7 +342,7 @@
   "table_id": "AP6hr"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ap6hrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -358,7 +358,7 @@
   "table_id": "AP6hrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ap6hrptlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -377,7 +377,7 @@
   "table_id": "AP6hrPtLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "ap6hrptz.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -393,7 +393,7 @@
   "table_id": "AP6hrPtZ"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apday.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -409,7 +409,7 @@
   "table_id": "APday"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apdaylev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -428,7 +428,7 @@
   "table_id": "APdayLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apdayz.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -444,7 +444,7 @@
   "table_id": "APdayZ"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apfx.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -460,7 +460,7 @@
   "table_id": "APfx"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apmon.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -476,7 +476,7 @@
   "table_id": "APmon"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apmonclim.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -492,7 +492,7 @@
   "table_id": "APmonClim"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apmonclimlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -511,7 +511,7 @@
   "table_id": "APmonClimLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apmondiurnal.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -527,7 +527,7 @@
   "table_id": "APmonDiurnal"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apmonlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -546,7 +546,7 @@
   "table_id": "APmonLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apmonz.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -562,7 +562,7 @@
   "table_id": "APmonZ"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apsubhrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -578,7 +578,7 @@
   "table_id": "APsubhrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apsubhrptlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -597,7 +597,7 @@
   "table_id": "APsubhrPtLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "apsubhrptsite.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -613,7 +613,7 @@
   "table_id": "APsubhrPtSite"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "giafx.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -629,7 +629,7 @@
   "table_id": "GIAfx"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "giamon.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -645,7 +645,7 @@
   "table_id": "GIAmon"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "giayr.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -661,7 +661,7 @@
   "table_id": "GIAyr"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "gigfx.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -677,7 +677,7 @@
   "table_id": "GIGfx"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "gigmon.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -693,7 +693,7 @@
   "table_id": "GIGmon"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "gigyr.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -709,7 +709,7 @@
   "table_id": "GIGyr"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "li3hrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -725,7 +725,7 @@
   "table_id": "LI3hrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "li6hrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -741,7 +741,7 @@
   "table_id": "LI6hrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "liday.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -757,7 +757,7 @@
   "table_id": "LIday"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "lifx.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -773,7 +773,7 @@
   "table_id": "LIfx"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "limon.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -789,7 +789,7 @@
   "table_id": "LImon"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "lisubhrptsite.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -805,7 +805,7 @@
   "table_id": "LIsubhrPtSite"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "lp3hr.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -821,7 +821,7 @@
   "table_id": "LP3hr"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "lp3hrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -837,7 +837,7 @@
   "table_id": "LP3hrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "lp6hrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -853,7 +853,7 @@
   "table_id": "LP6hrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "lpday.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -869,7 +869,7 @@
   "table_id": "LPday"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "lpfx.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -885,7 +885,7 @@
   "table_id": "LPfx"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "lpmon.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -901,7 +901,7 @@
   "table_id": "LPmon"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "lpyr.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -917,7 +917,7 @@
   "table_id": "LPyr"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "lpyrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -933,7 +933,7 @@
   "table_id": "LPyrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "obday.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -949,7 +949,7 @@
   "table_id": "OBday"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "obmon.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -965,7 +965,7 @@
   "table_id": "OBmon"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "obmonlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -984,7 +984,7 @@
   "table_id": "OBmonLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "obyr.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1000,7 +1000,7 @@
   "table_id": "OByr"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "obyrlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1019,7 +1019,7 @@
   "table_id": "OByrLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "op3hrpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1035,7 +1035,7 @@
   "table_id": "OP3hrPt"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "opday.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1051,7 +1051,7 @@
   "table_id": "OPday"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "opdec.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1067,7 +1067,7 @@
   "table_id": "OPdec"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "opdeclev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1086,7 +1086,7 @@
   "table_id": "OPdecLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "opdecz.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1102,7 +1102,7 @@
   "table_id": "OPdecZ"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "opfx.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1118,7 +1118,7 @@
   "table_id": "OPfx"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "opmon.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1134,7 +1134,7 @@
   "table_id": "OPmon"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "opmonclim.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1150,7 +1150,7 @@
   "table_id": "OPmonClim"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "opmonclimlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1169,7 +1169,7 @@
   "table_id": "OPmonClimLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "opmonlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1188,7 +1188,7 @@
   "table_id": "OPmonLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "opmonz.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1204,7 +1204,7 @@
   "table_id": "OPmonZ"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "opyr.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1220,7 +1220,7 @@
   "table_id": "OPyr"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "opyrlev.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1239,7 +1239,7 @@
   "table_id": "OPyrLev"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "siday.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1255,7 +1255,7 @@
   "table_id": "SIday"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "simon.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",
@@ -1271,7 +1271,7 @@
   "table_id": "SImon"
 },
 {
-  "@context": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/data_descriptors/tables/_context",
+  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
   "id": "simonpt.json",
   "type": "mip-table",
   "Conventions": "CF-1.7 CMIP-6.5",

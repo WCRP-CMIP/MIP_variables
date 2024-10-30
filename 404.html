@@ -30,6 +30,8 @@
                 const [origin, item] = urlSegments.slice(-2);
                 const baseURL = url.substring(0, url.lastIndexOf('/') + 1);
 
+
+                console.warn(baseURL,window.location.origin, origin)
                 if (baseURL === window.location.origin || origin === 'data_descriptor'){
                     console.log(origin,item)
                     origin = item

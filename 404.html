@@ -104,11 +104,11 @@
                                                 
                 }
     
-             contentHTML += `<h2>Fields</h2> <ul>`;
-                        Object.keys(data.properites).forEach(key => {
+                contentHTML += `<h2>Fields</h2> <ul>`;
+                        Object.keys(data.properties).forEach(key => {
                             contentHTML += `<li><a href="${baseURL}${key}" target="_blank">${key}</a></li>`;
                         });
-                    contentHTML += `</ul>`;
+                contentHTML += `</ul>`;
 
                     
                     

@@ -84,7 +84,7 @@
 
 
                      if (data.references) {
-                        contentHTML += `<h3>Linked To</h3> <ul>`;
+                        contentHTML += `<h2>Linked To</h2> <ul>`;
                         data.references.forEach(link => {
                             contentHTML += `<li><a href="${link}" target="_blank">${link}</a></li>`;
                         });
@@ -98,11 +98,17 @@
                             .replaceAll('\n', '<br>') // Inserts <br> tags
                             .replaceAll('  ', '&ensp;&ensp;'); // Replaces spaces with &ensp;
                         
-                        contentHTML += `<h3>Context</h3><pre><code>${strcontext}</code></pre>`;
+                        contentHTML += `<h2>Context</h2><pre><code>${strcontext}</code></pre>`;
                                                 
                 }
     
+             contentHTML += `<h2>Fields</h2> <ul>`;
+                        Object.keys(data.properites).forEach(key => {
+                            contentHTML += `<li><a href="${baseURL}${key}" target="_blank">${key}</a></li>`;
+                        });
+                    contentHTML += `</ul>`;
 
+                    
                     
                     // throw new Error("Item not found in schema data.");
                     

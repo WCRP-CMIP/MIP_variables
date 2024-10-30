@@ -129,7 +129,7 @@
                 contentHTML += `<h2>Description</h2><p>${itemData.description || "No description available."}</p>`;
                 
                 // Display types with schema.org links if available
-                if (itemData.types) {
+                if (itemData.type) {
                     contentHTML += `<h3>Types</h3><ul>`;
                     itemData.type.forEach(type => {
                         contentHTML += `<li><a href="https://schema.org/${type}" target="_blank">${type}</a></li>`;
@@ -139,7 +139,7 @@
 
                 // Display links if available
                 if (itemData.links) {
-                    contentHTML += `<h3>Related Links</h3> <ul>`;
+                    contentHTML += `<h2>Related Links</h2> <ul>`;
                     itemData.links.forEach(link => {
                         contentHTML += `<li><a href="${link.url}" target="_blank">${link.name}</a></li>`;
                     });

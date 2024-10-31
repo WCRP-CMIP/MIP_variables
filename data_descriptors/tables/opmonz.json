@@ -1,16 +1,18 @@
 {
-  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
-  "id": "opmonz.json",
-  "type": "mip-table",
-  "Conventions": "CF-1.7 CMIP-6.5",
-  "approx_interval": 30.0,
-  "checksum": "",
-  "cmor_version": "3.8.0",
-  "data_specs_version": "6.5.0.0",
-  "generic_levels": "",
-  "int_missing_value": "-999",
-  "missing_value": "1e20",
-  "product": "model-output",
-  "table_date": "2024-02-28",
-  "table_id": "OPmonZ"
+    "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
+    "Conventions": "CF-1.7 CMIP-6.5",
+    "approx_interval": 30.0,
+    "checksum": "",
+    "cmor_version": "3.8.0",
+    "data_specs_version": "6.5.0.0",
+    "generic_levels": "",
+    "id": "opmonz.json",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": {
+        "id": "model-output.json"
+    },
+    "table_date": "2024-02-28",
+    "table_id": "OPmonZ",
+    "type": "mip_table"
 }

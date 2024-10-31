@@ -1,19 +1,21 @@
 {
-  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
-  "id": "apdaylev.json",
-  "type": "mip-table",
-  "Conventions": "CF-1.7 CMIP-6.5",
-  "approx_interval": 1.0,
-  "checksum": "",
-  "cmor_version": "3.8.0",
-  "data_specs_version": "6.5.0.0",
-  "generic_levels": [
-    "alevel",
-    "alevhalf"
-  ],
-  "int_missing_value": "-999",
-  "missing_value": "1e20",
-  "product": "model-output",
-  "table_date": "2023-11-16",
-  "table_id": "APdayLev"
+    "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/tables/_context",
+    "Conventions": "CF-1.7 CMIP-6.5",
+    "approx_interval": 1.0,
+    "checksum": "",
+    "cmor_version": "3.8.0",
+    "data_specs_version": "6.5.0.0",
+    "generic_levels": [
+        "alevel",
+        "alevhalf"
+    ],
+    "id": "apdaylev.json",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": {
+        "id": "model-output.json"
+    },
+    "table_date": "2023-11-16",
+    "table_id": "APdayLev",
+    "type": "mip_table"
 }

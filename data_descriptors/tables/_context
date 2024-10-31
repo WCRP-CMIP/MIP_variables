@@ -12,5 +12,5 @@
     }
   },
   "@embed": "@always",
-  "product:{"@embed": "@always"}
+  "product":{"@embed": "@always"}
 }
